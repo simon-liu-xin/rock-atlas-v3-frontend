@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        VITE_BACKGROUND_TRACK_URL: ${VITE_BACKGROUND_TRACK_URL:-}
+    ports:
+      - "127.0.0.1:${ROCK_ATLAS_PORT:-8080}:8080"
+    restart: unless-stopped

@@ -1,0 +1,53 @@
+{
+  "name": "rock-atlas-v3-frontend",
+  "version": "3.0.0",
+  "private": true,
+  "description": "An evidence-first, downloadable rock music knowledge graph.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "packageManager": "npm@10.9.8",
+  "engines": {
+    "node": ">=22.18.0 <23",
+    "npm": ">=10.9.0 <11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm test && npm run build",
+    "deploy:cloudflare": "node scripts/deploy-cloudflare.mjs",
+    "deploy:cloudflare:check": "node scripts/deploy-cloudflare.mjs --dry-run",
+    "deploy:cloudflare:preview": "node scripts/deploy-cloudflare.mjs --preview"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.7.0",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "i18next": "26.3.6",
+    "lucide-react": "1.28.0",
+    "papaparse": "5.5.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-i18next": "17.0.11",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.12.1",
+    "@playwright/test": "1.62.1",
+    "@types/node": "22.20.1",
+    "@types/papaparse": "5.5.2",
+    "@types/pngjs": "6.0.5",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@types/three": "0.185.0",
+    "@vitejs/plugin-react": "6.0.5",
+    "json-schema-to-typescript": "15.0.4",
+    "pngjs": "7.0.0",
+    "typescript": "7.0.2",
+    "vite": "8.2.0",
+    "vitest": "4.1.10"
+  }
+}

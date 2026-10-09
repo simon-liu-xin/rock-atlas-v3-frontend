@@ -1,0 +1,2013 @@
+{
+  "format": "rock-atlas-repository-split-v2",
+  "source_base_commit": "4b69a7a",
+  "component": "frontend",
+  "prepared_at": "2026-10-09",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 99,
+      "sha256": "cf5e5fcf8caa3099d5b3c21d48d7adad8bdaddac510f0ceff998b319b5611eca"
+    },
+    {
+      "path": ".env.production.example",
+      "bytes": 120,
+      "sha256": "2899355a2b274042f6242bdd577a6056eb24f6399bd399df7a6b0b9f3106079e"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "bytes": 376,
+      "sha256": "15f2df6104aaa8b66eb7072f463711973116b083c0a00db7ff3adc55de6d0779"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 193,
+      "sha256": "2934569b8ea6727e592d7bcbaba4de841ad2ac5462f03a9e305e9da34bf642cf"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 22,
+      "sha256": "a093bb2fed59d699b7f9a62a5203cc196054c624e9c39c6d908c9e7db5dd2464"
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 8,
+      "sha256": "9c579c4eab1d526e689fe7cda201a0ab2f39070304043bb55c459a3d90954250"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 333,
+      "sha256": "534aa43036dfc2c3085e26793f29dc3fb7da59ca3e65904e70a79fa5e4c07e76"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 284,
+      "sha256": "d71a092c94a36f2977cba4b216e05420481856ca89b6e462ac64eb554df8ae62"
+    },
+    {
+      "path": "cloudflare.deploy.example.json",
+      "bytes": 115,
+      "sha256": "d5e4bbfa8d3f02cc041e4546233fdf9d3001935862b9e3db7bfc296079174cf1"
+    },
+    {
+      "path": "DATA-LICENSES.md",
+      "bytes": 3425,
+      "sha256": "cc8afb62ba6a5d1deb3181d64fdf781d32f7d0015f1842fb33bb58df50c430f3"
+    },
+    {
+      "path": "data/fixtures/experiment-v1/content/cases.json",
+      "bytes": 2329,
+      "sha256": "499c1ae46bf252bd0f49b9793030440d13d00fcb4eb7931fa3512a2171788abb"
+    },
+    {
+      "path": "data/fixtures/experiment-v1/manifest.json",
+      "bytes": 800,
+      "sha256": "e8d8599d2c66a42dfccea7795032c247f0421aab42de2ef24a0d904826c34bfc"
+    },
+    {
+      "path": "data/fixtures/experiment-v1/sample.json",
+      "bytes": 161005,
+      "sha256": "61954c43673472e04c4f4d4e3c71cb3f663aa64dda7d37e83e07a676b8379c20"
+    },
+    {
+      "path": "data/fixtures/nirvana-v1/graph.json",
+      "bytes": 8201,
+      "sha256": "48a46ca8750ad2fa0d537035b084382104327a0fccd6934ab4c672a920afe5b3"
+    },
+    {
+      "path": "data/fixtures/nirvana-v1/manifest.json",
+      "bytes": 616,
+      "sha256": "acf79414a23daa0a35b4fbe3ba8690258db8368cc11228a3ab896bb7c7c6cf15"
+    },
+    {
+      "path": "deploy/nginx.conf",
+      "bytes": 2048,
+      "sha256": "32676ac50debc6c0f7cc8d72ec0bb6b6a99273ba9735a84ec166c41e182388cc"
+    },
+    {
+      "path": "deploy/security-headers.inc",
+      "bytes": 250,
+      "sha256": "aaef372845b8f27b5e277999cbc8117039a293ea08a6c1edc878808cecd0b2d0"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 19572,
+      "sha256": "e2ce4ce01b2f75b233229f2a1f5da6d03ed995cb56b18a221be511b1a2ac89ee"
+    },
+    {
+      "path": "docker-compose.yml",
+      "bytes": 212,
+      "sha256": "f7c688eaaf4366429b794f55e6b068dfc5d8f6c390decfc8c51b9224781131ac"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 655,
+      "sha256": "ab073288de7a5b6482630ceafca59c871efc7afd394a2d037016e2f12933a352"
+    },
+    {
+      "path": "docs/deployment/cloudflare-pages.md",
+      "bytes": 8013,
+      "sha256": "160ece615d2c566f0a7b2278b6b63e9d1750908406f7fd7197471335ee2d32d8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 745,
+      "sha256": "3b550dd3124c01bede601ec3a342c7c5b65bd48213f7c9637efaa05bf567d545"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1201,
+      "sha256": "141c8980cd78e56387b1fc3dc852ce06ce04544f7ab5f27ae218dbd033fcc046"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 79608,
+      "sha256": "018b387b17cad007fb71b88f944cc06e09dfb92f8931348fe594093afb962425"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1548,
+      "sha256": "166aeb3ba9eb1d34d69cca521bf6114076d8cab2d19c3aa3f0a91d9ad807d313"
+    },
+    {
+      "path": "playwright.config.ts",
+      "bytes": 878,
+      "sha256": "d1256c536906a35bc0e7541fa772aae7cf70ad3014aeb47e045f8ed71ac3f5c3"
+    },
+    {
+      "path": "public/_headers",
+      "bytes": 803,
+      "sha256": "12527093d4a3c48287d6d372e312ae9b6e5068a32f8d6883671e03dcd37026a9"
+    },
+    {
+      "path": "public/_redirects",
+      "bytes": 38,
+      "sha256": "a410234254a78cd19ef149831cc4a061f7e8e334035c0c168115c6eb22d530ef"
+    },
+    {
+      "path": "public/404.html",
+      "bytes": 285,
+      "sha256": "94844f0cec827ad6a6e2214bcf93d896799c4f9544a6b497a0ffcc21174a812d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/current.json",
+      "bytes": 1080,
+      "sha256": "f1f7ebc865b390f56c87274dd095a751439166391569231d70de1ec72a040a44"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/artist-release-groups/root.json",
+      "bytes": 5979,
+      "sha256": "d614ac6d415c97ed9a3ba5ccaeb7d0c35eb29af010094ade4e20fd4cc1d997e1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/artist-summary/root.json",
+      "bytes": 5962,
+      "sha256": "82aa108aadf2fabc1c25ece88754800804eef21be5fc4cd7a93d09aeb4615e84"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/evidence/root.json",
+      "bytes": 5985,
+      "sha256": "012fd6b2b43ec652ba91fb6e53ddce179e8e1ebacfd92f03a7f9b6ddf259268c"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/identity-resolution/root.json",
+      "bytes": 5986,
+      "sha256": "a2b89f773b23a9ed552a7c6561cc72ab88839af77e08b80a3c7ebfc0d4d36d50"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/relation/root.json",
+      "bytes": 5969,
+      "sha256": "79b3f1c0529c2bf3689e039a6de3c19524fe8a991698484216fcc1281268d559"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/release-group-summary/root.json",
+      "bytes": 5980,
+      "sha256": "d85e1744aeafdc431bada4044ddd113ee5772cb3e77ccf42c347ffde7007b707"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/search-artist/root.json",
+      "bytes": 5990,
+      "sha256": "b8916bf44dca4c10cb37e0af83cfc6ec3364edab8676d231184b3ba7aaf2fe7f"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/search-release-group/root.json",
+      "bytes": 6029,
+      "sha256": "a65363092a30902f011fd2a7fcd33925eadc97b86927edf7ac46d4f6310851cf"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/search-style/root.json",
+      "bytes": 6021,
+      "sha256": "4c04789d12a915e418978d9c3c2b9036e1ba58f2ae2a63f65428fc1241f9b100"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/style-artists/root.json",
+      "bytes": 5974,
+      "sha256": "3e0614a0f20737e6e51ae4e1c8ec586e6c23b518f9ccd22b5ee3ec2a686c77bf"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/style-relations/root.json",
+      "bytes": 5991,
+      "sha256": "3aa76630d448fe5e9f384ecfe25c60eb38f0b52b0006aa0704d81ee3ea5af9c7"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/manifests/style-summary/root.json",
+      "bytes": 5974,
+      "sha256": "31c402a58755998d366c40d8a16acde1e392da01a17bf8478a2f3c944a49d674"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/overview.json",
+      "bytes": 1526788,
+      "sha256": "22e2c558559a17acd204d121ad9d09f7f77e63b9039f01c78195bb99aeeb80f2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/root-manifest.json",
+      "bytes": 6753,
+      "sha256": "403e6ae71be0e6d48062de9820542d315992585fe60cf65e904a8950240e310d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/artist-release-groups/root.json",
+      "bytes": 5966,
+      "sha256": "52a35e02c7e6f96486d797d53904416a349c05cbd4bf84b141b71bedd699f5fc"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/artist-summary/root.json",
+      "bytes": 5949,
+      "sha256": "033698662054de08c85554736672595ecc30ba42bcd6d7ed8ea82f9a228fde4d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/evidence/root.json",
+      "bytes": 5972,
+      "sha256": "e411d11c41783abe907f98448c35a1c3fc347f1efb5ddc002fac82a69100aa70"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/identity-resolution/root.json",
+      "bytes": 5973,
+      "sha256": "2bba771cb76c2cf852d25cd5be052ecf5cc618eb457f4dc3e31c75500d9e95d2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/relation/root.json",
+      "bytes": 5956,
+      "sha256": "1cbc8251a7a6187ef98db3339b8015c9ff14fc67bc5fae2985c59914054e537d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/release-group-summary/root.json",
+      "bytes": 5967,
+      "sha256": "b8a6c8f78ddd4123121df70da5461ff583e5137dd19d0391da5ce140389c2b74"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/search-artist/root.json",
+      "bytes": 5977,
+      "sha256": "d4acdb2e265ad2ebced98af788b56813a20ac5b71d812d8da0982192c06faf99"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/search-release-group/root.json",
+      "bytes": 6016,
+      "sha256": "3838baa46b99b8337875508277f5305b982221ba5917b66ee0abb2c7771f8bef"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/search-style/root.json",
+      "bytes": 6008,
+      "sha256": "c3dc7e7b6792538c738bd1b6d3d857a37efb046fd79964b661876c9bd0065214"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/style-artists/root.json",
+      "bytes": 5961,
+      "sha256": "55a39b4a43b73a1adb7943081bdfcb5ba487a146e3c39e9109892ffacff55a52"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/style-relations/root.json",
+      "bytes": 5978,
+      "sha256": "8d8f9cb1fed518b74643635eec65232021ea22a5e924cfbc623089f733d4d6a1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/manifests/style-summary/root.json",
+      "bytes": 5961,
+      "sha256": "822d4b103e8e5b78880540acf398fb5a5bcfd5aa0369490ca957685831d33110"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/overview.json",
+      "bytes": 1514298,
+      "sha256": "dac04fea5feda9a453e986cb4d7d528fd356ee4f27e4b0ee5aba5c4679917d03"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3/root-manifest.json",
+      "bytes": 6571,
+      "sha256": "7086611c171395d6416294879ea98ac974729a89477800c0130899f17208a36e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/migration-report.json",
+      "bytes": 843,
+      "sha256": "0f0f94f8faca4f95cc04dc80497bbe0d2e22310924de502670a1d30ca77e9245"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/00/001c5cb7f97784dd3259100e2d8799ba254f30975d8e77895095d8d74015ac63.json.gz",
+      "bytes": 2265,
+      "sha256": "001c5cb7f97784dd3259100e2d8799ba254f30975d8e77895095d8d74015ac63"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/02/027c8c9a3cdade55dc1532a977330be7c58fd081fa0bb41088c87ea3b456d6b4.json.gz",
+      "bytes": 2411,
+      "sha256": "027c8c9a3cdade55dc1532a977330be7c58fd081fa0bb41088c87ea3b456d6b4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/02/02e6129deb6652ac3649e83f9843ac4fa3c64f3117e53fa6925c4deb514aa11b.json.gz",
+      "bytes": 5360,
+      "sha256": "02e6129deb6652ac3649e83f9843ac4fa3c64f3117e53fa6925c4deb514aa11b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/05/05c27d31ba45f01277e2f84e4d390f9e45b696daa810d3da804565ac7df62cd1.json.gz",
+      "bytes": 1722,
+      "sha256": "05c27d31ba45f01277e2f84e4d390f9e45b696daa810d3da804565ac7df62cd1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/05/05f2dc2226110443559dd9e83e77ee6ee1154d6bc554dca46abb26c83fad2b97.json.gz",
+      "bytes": 4584,
+      "sha256": "05f2dc2226110443559dd9e83e77ee6ee1154d6bc554dca46abb26c83fad2b97"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/06/0620f667fcb7e3d74949ffedea362105c418867ffb2b41c29197eeaedfbbea01.json.gz",
+      "bytes": 9279,
+      "sha256": "0620f667fcb7e3d74949ffedea362105c418867ffb2b41c29197eeaedfbbea01"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/06/06ed24aefc559adb9c05859a8d3235255ee571db554f2aeb6071ab6c28ffa1d2.json.gz",
+      "bytes": 2756,
+      "sha256": "06ed24aefc559adb9c05859a8d3235255ee571db554f2aeb6071ab6c28ffa1d2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/07/0722ff3b87474bfe229dee5650a0f5720a7629949688a056b4fb382b01781872.json.gz",
+      "bytes": 8046,
+      "sha256": "0722ff3b87474bfe229dee5650a0f5720a7629949688a056b4fb382b01781872"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/07/076e4deb2da80934134dbfd77e6e7e21c809deda327d14170ab989e62c54aba8.json.gz",
+      "bytes": 1810,
+      "sha256": "076e4deb2da80934134dbfd77e6e7e21c809deda327d14170ab989e62c54aba8"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/08/08364b9e76f7409c5be0071117e36666b4f24ff647976adc22ca580016a726eb.json.gz",
+      "bytes": 2580,
+      "sha256": "08364b9e76f7409c5be0071117e36666b4f24ff647976adc22ca580016a726eb"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/0b/0be876ee1ac7399eeaa19feaf3b253625261f6ea8073b177cd9dfdf3580afb7d.json.gz",
+      "bytes": 2339,
+      "sha256": "0be876ee1ac7399eeaa19feaf3b253625261f6ea8073b177cd9dfdf3580afb7d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/0c/0c1a7abfbac8110712bf2dd7a2ad9ff79ef6cd4f711cb0c2b892870dd37b0ba4.json.gz",
+      "bytes": 5432,
+      "sha256": "0c1a7abfbac8110712bf2dd7a2ad9ff79ef6cd4f711cb0c2b892870dd37b0ba4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/0c/0cc495638a70923a1d3e2d63c155c4d362e53c64c19e53d0b1853e727b09ce94.json.gz",
+      "bytes": 2663,
+      "sha256": "0cc495638a70923a1d3e2d63c155c4d362e53c64c19e53d0b1853e727b09ce94"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/0d/0d7b689df83fd3acacbaac86dc925a04635697c1e7527a5c2ba17568cdaef2d0.json.gz",
+      "bytes": 1779,
+      "sha256": "0d7b689df83fd3acacbaac86dc925a04635697c1e7527a5c2ba17568cdaef2d0"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/0d/0dface69d67ffc197b04df3e7ccb4b8333c83a67648ac795a9173ff645cb778b.json.gz",
+      "bytes": 1711,
+      "sha256": "0dface69d67ffc197b04df3e7ccb4b8333c83a67648ac795a9173ff645cb778b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/10/109795924375250c1b4cc51babe73af442a9b2d5b28ab39b62a7469abdab2731.json.gz",
+      "bytes": 2081,
+      "sha256": "109795924375250c1b4cc51babe73af442a9b2d5b28ab39b62a7469abdab2731"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/12/12838c77eb021d64af096efdee5e61c745ba4be47ed269c4eeb413cc7a5cd8f4.json.gz",
+      "bytes": 5077,
+      "sha256": "12838c77eb021d64af096efdee5e61c745ba4be47ed269c4eeb413cc7a5cd8f4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/14/145d6ebac66e8ffc284652db1efcdb1cb9c35fe203d6f21cd1eed9e0275da801.json.gz",
+      "bytes": 23374,
+      "sha256": "145d6ebac66e8ffc284652db1efcdb1cb9c35fe203d6f21cd1eed9e0275da801"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/14/14cf442e82acb99fd43bb019885a6e5e96f6cdc45c8a2bcc5538ed2c0289f2ab.json.gz",
+      "bytes": 3081,
+      "sha256": "14cf442e82acb99fd43bb019885a6e5e96f6cdc45c8a2bcc5538ed2c0289f2ab"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/15/1536fab636b4934647fac6ebd4e5e0980ddf67747672f14effdbb83514b9c559.json.gz",
+      "bytes": 2096,
+      "sha256": "1536fab636b4934647fac6ebd4e5e0980ddf67747672f14effdbb83514b9c559"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/15/1538b3ca564b9fd1475a7556062116ff98de9e8d2bfdfcb5dfc0166dc4878429.json.gz",
+      "bytes": 4579,
+      "sha256": "1538b3ca564b9fd1475a7556062116ff98de9e8d2bfdfcb5dfc0166dc4878429"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/15/15a71b4e0921d7ca1c78d2f506de4ce2363ae6dc3af4305e923ba0343b4736f3.json.gz",
+      "bytes": 5192,
+      "sha256": "15a71b4e0921d7ca1c78d2f506de4ce2363ae6dc3af4305e923ba0343b4736f3"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/17/17133dda4f844be99d28fd6ba31b7d886478852156cad3bb8a6139ae0746af88.json.gz",
+      "bytes": 8160,
+      "sha256": "17133dda4f844be99d28fd6ba31b7d886478852156cad3bb8a6139ae0746af88"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/17/174dd3e30d3207144966efc30175dc9e08802eaa34a261e9a91c370a93fcd91e.json.gz",
+      "bytes": 1567,
+      "sha256": "174dd3e30d3207144966efc30175dc9e08802eaa34a261e9a91c370a93fcd91e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/18/18bdbc0717548dd41db0c377f6c4cf5187ad9047ca4c6059823c6072cb955ab6.json.gz",
+      "bytes": 3971,
+      "sha256": "18bdbc0717548dd41db0c377f6c4cf5187ad9047ca4c6059823c6072cb955ab6"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/1c/1c178f175eff1ed3ed2dbf52b5cb999b801c1fe8dc760a285c4277b4aa450b10.json.gz",
+      "bytes": 1710,
+      "sha256": "1c178f175eff1ed3ed2dbf52b5cb999b801c1fe8dc760a285c4277b4aa450b10"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/20/20dfbcc3cf796be3b99e844cd2cdb95f62f1acdfb71663c7ea807bffeebfc0a7.json.gz",
+      "bytes": 2474,
+      "sha256": "20dfbcc3cf796be3b99e844cd2cdb95f62f1acdfb71663c7ea807bffeebfc0a7"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/21/215f59344336f56aadd5a108789d3cc8247072730ea35d274c3df41c4fbf58cf.json.gz",
+      "bytes": 1718,
+      "sha256": "215f59344336f56aadd5a108789d3cc8247072730ea35d274c3df41c4fbf58cf"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/21/219de345bbfb5bec0f229f6367a2e7fe39f75d184f383a5be3080203b38b6ca9.json.gz",
+      "bytes": 3742,
+      "sha256": "219de345bbfb5bec0f229f6367a2e7fe39f75d184f383a5be3080203b38b6ca9"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/21/219e0006e4489098b976c9b25ad3f42e9146b6c81894778c17af74c17f7701ee.json.gz",
+      "bytes": 7672,
+      "sha256": "219e0006e4489098b976c9b25ad3f42e9146b6c81894778c17af74c17f7701ee"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/22/22648d980850916583c30a74aacfe61daf72600a6029cde1cf0eb76d304be341.json.gz",
+      "bytes": 2279,
+      "sha256": "22648d980850916583c30a74aacfe61daf72600a6029cde1cf0eb76d304be341"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/22/22cf26666fd261a4013fb9786d3fe4c3d63847817ffb101080e79ce5da069e26.json.gz",
+      "bytes": 8386,
+      "sha256": "22cf26666fd261a4013fb9786d3fe4c3d63847817ffb101080e79ce5da069e26"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/23/231bb14843c768979e377cb977c25d356f8c94d0009e20e7845659e309f4b049.json.gz",
+      "bytes": 8640,
+      "sha256": "231bb14843c768979e377cb977c25d356f8c94d0009e20e7845659e309f4b049"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/23/23ff627a958f02e10e645fedc1ea73f333fd6b0ae8cef781ed12424c8c65eb46.json.gz",
+      "bytes": 2243,
+      "sha256": "23ff627a958f02e10e645fedc1ea73f333fd6b0ae8cef781ed12424c8c65eb46"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/25/25d08da58999b1259c08a53bedeac459fe6c2809f782b4ba444629b96b417e8a.json.gz",
+      "bytes": 9154,
+      "sha256": "25d08da58999b1259c08a53bedeac459fe6c2809f782b4ba444629b96b417e8a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/27/27df6d65bd5eb72ec310d92422880bbdd6eab339ac9a8b9611213974347bbebf.json.gz",
+      "bytes": 4633,
+      "sha256": "27df6d65bd5eb72ec310d92422880bbdd6eab339ac9a8b9611213974347bbebf"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/2b/2b68930a93f4d255c9da9bf25a7915b4ded781b94a06ef9d83dc94f9447309d8.json.gz",
+      "bytes": 5387,
+      "sha256": "2b68930a93f4d255c9da9bf25a7915b4ded781b94a06ef9d83dc94f9447309d8"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/2b/2bae895916fabbc570f1430369ec29b776783f1b802f9dd729dfed8929758d0a.json.gz",
+      "bytes": 3131,
+      "sha256": "2bae895916fabbc570f1430369ec29b776783f1b802f9dd729dfed8929758d0a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/2b/2bd61112b522e6b539116f15391d275deebfdc3fa4e43a6a9ecbd2b65033d54a.json.gz",
+      "bytes": 7825,
+      "sha256": "2bd61112b522e6b539116f15391d275deebfdc3fa4e43a6a9ecbd2b65033d54a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/2c/2cbcd2b39594046fffa7da3650b69449a929e0db05b9b956f53b11f7c1d44564.json.gz",
+      "bytes": 2513,
+      "sha256": "2cbcd2b39594046fffa7da3650b69449a929e0db05b9b956f53b11f7c1d44564"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/2e/2e0988af8c3988dd75b4ec7198b846b7862f0c76b59dcb4a23bd34bc62191b52.json.gz",
+      "bytes": 22145,
+      "sha256": "2e0988af8c3988dd75b4ec7198b846b7862f0c76b59dcb4a23bd34bc62191b52"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/2e/2e2819d0eeba4865e45d3786c4c4e90cbb0432d1db6d03710881283a13372fc0.json.gz",
+      "bytes": 2090,
+      "sha256": "2e2819d0eeba4865e45d3786c4c4e90cbb0432d1db6d03710881283a13372fc0"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/32/3208a22138d3a5d3d6fb7a2cec254d8d3e48fb3a1c752a438632365ee24a7af4.json.gz",
+      "bytes": 4733,
+      "sha256": "3208a22138d3a5d3d6fb7a2cec254d8d3e48fb3a1c752a438632365ee24a7af4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/36/364062d221dd8818d75612559bcf05eabfdbcd6d70e60e5a7e8fd2e5012e17ce.json.gz",
+      "bytes": 2074,
+      "sha256": "364062d221dd8818d75612559bcf05eabfdbcd6d70e60e5a7e8fd2e5012e17ce"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/36/36820cd0a9f94e8270a7d91ed788320538dcd66585afce152bbae54af77524c2.json.gz",
+      "bytes": 4990,
+      "sha256": "36820cd0a9f94e8270a7d91ed788320538dcd66585afce152bbae54af77524c2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/3a/3a60c6702996c37eba9139d7776fc2901f0e668e58fd82c1c13978daaad88133.json.gz",
+      "bytes": 5546,
+      "sha256": "3a60c6702996c37eba9139d7776fc2901f0e668e58fd82c1c13978daaad88133"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/3a/3ab66f851d070925477b77ac476bf4940a6089c975c880062e73c9a4c306cc75.json.gz",
+      "bytes": 1996,
+      "sha256": "3ab66f851d070925477b77ac476bf4940a6089c975c880062e73c9a4c306cc75"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/3b/3bd45c1bfe6a03ba8aaca5c2a322f6f023c517527955ce53445c2d8d2faa8471.json.gz",
+      "bytes": 2399,
+      "sha256": "3bd45c1bfe6a03ba8aaca5c2a322f6f023c517527955ce53445c2d8d2faa8471"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/3d/3d55ce0c2150027c0b27b05ac95d0476b6a890614c765a90b193e2df12e40d50.json.gz",
+      "bytes": 3159,
+      "sha256": "3d55ce0c2150027c0b27b05ac95d0476b6a890614c765a90b193e2df12e40d50"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/3e/3e7fae2388dbf5915ccbf7bf5ec3f4de967ae14349fd073a68617599d7a77a29.json.gz",
+      "bytes": 15228,
+      "sha256": "3e7fae2388dbf5915ccbf7bf5ec3f4de967ae14349fd073a68617599d7a77a29"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/3e/3ecec6f387c3278d543bd854aea1cb16534f3fc971eeb7ccb50e78c348940005.json.gz",
+      "bytes": 2369,
+      "sha256": "3ecec6f387c3278d543bd854aea1cb16534f3fc971eeb7ccb50e78c348940005"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/3e/3ee8e8faf0230afa695964ff8503484be8e8392611465879c6e97e2539d58588.json.gz",
+      "bytes": 2081,
+      "sha256": "3ee8e8faf0230afa695964ff8503484be8e8392611465879c6e97e2539d58588"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/42/42c87c7d5a92969698b1749509c4c4b84b435df0e4a17b9d512c955ce0379bc1.json.gz",
+      "bytes": 2454,
+      "sha256": "42c87c7d5a92969698b1749509c4c4b84b435df0e4a17b9d512c955ce0379bc1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/42/42d10bfe273bcc782054d001f932849c14445408525b3f04006890e63dc893e4.json.gz",
+      "bytes": 22856,
+      "sha256": "42d10bfe273bcc782054d001f932849c14445408525b3f04006890e63dc893e4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/43/4335501efb48098a498a1bab1e816fb49f8f785507a2ea5ec4323e3e7c5331ac.json.gz",
+      "bytes": 4602,
+      "sha256": "4335501efb48098a498a1bab1e816fb49f8f785507a2ea5ec4323e3e7c5331ac"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/43/439370842f138185e0846f9bf119e8aa294cd2c7cce63fb8c463f3c6c4486081.json.gz",
+      "bytes": 1772,
+      "sha256": "439370842f138185e0846f9bf119e8aa294cd2c7cce63fb8c463f3c6c4486081"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/44/4469b8596cc09e43cadad722bfb3269eb43c15289f3e9921bb5c7359a5bf7875.json.gz",
+      "bytes": 1797,
+      "sha256": "4469b8596cc09e43cadad722bfb3269eb43c15289f3e9921bb5c7359a5bf7875"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/44/446faa84219ac270fca5b862b647e403cca44751496fe1a5ff44a9a5f62350dc.json.gz",
+      "bytes": 5799,
+      "sha256": "446faa84219ac270fca5b862b647e403cca44751496fe1a5ff44a9a5f62350dc"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/46/469ad1cf137423cc6825a37389796d6f8894f5ac5cb4159f7f736168a980ee58.json.gz",
+      "bytes": 4935,
+      "sha256": "469ad1cf137423cc6825a37389796d6f8894f5ac5cb4159f7f736168a980ee58"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/46/46cbe199fe87a7e69f7119c9befae07b1b61d50c211848dba45a66b68a4a8dd8.json.gz",
+      "bytes": 2477,
+      "sha256": "46cbe199fe87a7e69f7119c9befae07b1b61d50c211848dba45a66b68a4a8dd8"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/47/47106d98f8fe432f02409fd5814c33c8427d57720cd9ddfddaf73c813eea9e1e.json.gz",
+      "bytes": 15210,
+      "sha256": "47106d98f8fe432f02409fd5814c33c8427d57720cd9ddfddaf73c813eea9e1e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/47/47f681c38b7275d30568b1717f75f63f5330e53f6aae51bcbc0b785d4f5fea91.json.gz",
+      "bytes": 5005,
+      "sha256": "47f681c38b7275d30568b1717f75f63f5330e53f6aae51bcbc0b785d4f5fea91"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/4b/4b12e8d182a9105dcd0d1b647de0b2f6e3578e322631627bf572009b8972a04a.json.gz",
+      "bytes": 3949,
+      "sha256": "4b12e8d182a9105dcd0d1b647de0b2f6e3578e322631627bf572009b8972a04a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/4c/4ce7715e24e139b8da0c35d5b2ec58262e20bdba0519c392e180931ef022d5bc.json.gz",
+      "bytes": 1910,
+      "sha256": "4ce7715e24e139b8da0c35d5b2ec58262e20bdba0519c392e180931ef022d5bc"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/4d/4d158d1c7ce944db6388940d90b18ad88d8d896172d8e20f6ea3e0a0ede07f46.json.gz",
+      "bytes": 4916,
+      "sha256": "4d158d1c7ce944db6388940d90b18ad88d8d896172d8e20f6ea3e0a0ede07f46"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/4d/4d71b057ea0386eddbc4ae62831c4a38482aaddd761d219b5329a16319b45d97.json.gz",
+      "bytes": 8302,
+      "sha256": "4d71b057ea0386eddbc4ae62831c4a38482aaddd761d219b5329a16319b45d97"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/4d/4db5b985939d2f401bf7968d00407257a20d32b9d2872584430791a24ec7f9ce.json.gz",
+      "bytes": 1856,
+      "sha256": "4db5b985939d2f401bf7968d00407257a20d32b9d2872584430791a24ec7f9ce"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/4f/4f46dbbde1609baca05812154040aab66d911081b3487d18aaa139a51793db60.json.gz",
+      "bytes": 22850,
+      "sha256": "4f46dbbde1609baca05812154040aab66d911081b3487d18aaa139a51793db60"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/50/50868ee63a09e39974f7bb1fe68c861a508bd79e688b38784e0debbe8124025f.json.gz",
+      "bytes": 6880,
+      "sha256": "50868ee63a09e39974f7bb1fe68c861a508bd79e688b38784e0debbe8124025f"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/52/529059fe4de80b9152501c4bba44a510a3019e771fe69479c0391ef301ff9660.json.gz",
+      "bytes": 5546,
+      "sha256": "529059fe4de80b9152501c4bba44a510a3019e771fe69479c0391ef301ff9660"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/52/52986c1ce95f28aeb16238a4412c599b90519a6325e8b5fb296840ba97c5b6ad.json.gz",
+      "bytes": 2524,
+      "sha256": "52986c1ce95f28aeb16238a4412c599b90519a6325e8b5fb296840ba97c5b6ad"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/53/53519ca9bb6e13ce243e5cffc917c76e084fd3ead830f33bbb3adcb2c315aa3b.json.gz",
+      "bytes": 8021,
+      "sha256": "53519ca9bb6e13ce243e5cffc917c76e084fd3ead830f33bbb3adcb2c315aa3b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/54/5481ce6de948647da980f30faddda7c26054591089c565cd98623081a7be4962.json.gz",
+      "bytes": 1922,
+      "sha256": "5481ce6de948647da980f30faddda7c26054591089c565cd98623081a7be4962"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/55/5530b5399e93aa24b0716f5bc81b12a1d754da30585d981c5ec126286d0af4cc.json.gz",
+      "bytes": 2581,
+      "sha256": "5530b5399e93aa24b0716f5bc81b12a1d754da30585d981c5ec126286d0af4cc"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/56/563a56ad3892ee18309aca57011c64fe2f87385a722a255d5080505854ff3fd7.json.gz",
+      "bytes": 4411,
+      "sha256": "563a56ad3892ee18309aca57011c64fe2f87385a722a255d5080505854ff3fd7"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/56/56c3bafe46aa06bba514687a08fa5ff6cd93f04d06b42684d39f5e40afc51ec4.json.gz",
+      "bytes": 2556,
+      "sha256": "56c3bafe46aa06bba514687a08fa5ff6cd93f04d06b42684d39f5e40afc51ec4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/58/58c9b0028f015f2ffbff2ec91838ae12b0dbd48978a4506bfa107575e54fa2c4.json.gz",
+      "bytes": 4874,
+      "sha256": "58c9b0028f015f2ffbff2ec91838ae12b0dbd48978a4506bfa107575e54fa2c4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/59/5955c239958be15caa4bdf8d2a71dc2df2108433db6ed808d35b689f7de606be.json.gz",
+      "bytes": 6989,
+      "sha256": "5955c239958be15caa4bdf8d2a71dc2df2108433db6ed808d35b689f7de606be"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/5a/5a7088e2ffae77a30b00882ad890aa4d69a903c5b5431cf922e6c8ec057ed2fa.json.gz",
+      "bytes": 2382,
+      "sha256": "5a7088e2ffae77a30b00882ad890aa4d69a903c5b5431cf922e6c8ec057ed2fa"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/5a/5ab8d1a008f33441cbabb9ae34fdf8bcd3fcc6a1ea047d73e096590388789cfe.json.gz",
+      "bytes": 23023,
+      "sha256": "5ab8d1a008f33441cbabb9ae34fdf8bcd3fcc6a1ea047d73e096590388789cfe"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/5c/5c1343f08c9102e8329bf86b1a7c6ee6e87d0ff28227c664d8628e77ced59d15.json.gz",
+      "bytes": 5507,
+      "sha256": "5c1343f08c9102e8329bf86b1a7c6ee6e87d0ff28227c664d8628e77ced59d15"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/5c/5cbc80980c6ec3815aabe0f51c8ec2149ac58dae2a5cdb0d561f614c9f283b49.json.gz",
+      "bytes": 2020,
+      "sha256": "5cbc80980c6ec3815aabe0f51c8ec2149ac58dae2a5cdb0d561f614c9f283b49"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/5e/5e69e5bf0e48882e5ee5fa9eb4cbe41bb418c441c8d3f51896467a63ef864d84.json.gz",
+      "bytes": 4254,
+      "sha256": "5e69e5bf0e48882e5ee5fa9eb4cbe41bb418c441c8d3f51896467a63ef864d84"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/5e/5e6a6a162ae1e93af7e01a1082d4501ee098fd9c8dc043304542ba5afdfab617.json.gz",
+      "bytes": 1942,
+      "sha256": "5e6a6a162ae1e93af7e01a1082d4501ee098fd9c8dc043304542ba5afdfab617"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/60/60d742487f5283831c5baea1b50572164c3047bac04404ae292044b295480772.json.gz",
+      "bytes": 1850,
+      "sha256": "60d742487f5283831c5baea1b50572164c3047bac04404ae292044b295480772"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/61/61d151b1bc013b6b481a623abb97f3e54dfe136684eb649bdb8dff3d03c260c6.json.gz",
+      "bytes": 8520,
+      "sha256": "61d151b1bc013b6b481a623abb97f3e54dfe136684eb649bdb8dff3d03c260c6"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/64/647d9a61f12e88a8eaa3c76c4bc949998ae872a4a8448cba6eb9ef9ba9d8ee11.json.gz",
+      "bytes": 17198,
+      "sha256": "647d9a61f12e88a8eaa3c76c4bc949998ae872a4a8448cba6eb9ef9ba9d8ee11"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/65/654b31471f6092cb51dba933ff5c4c5cb1a089d63338a338e9183aeae477f3ec.json.gz",
+      "bytes": 1353,
+      "sha256": "654b31471f6092cb51dba933ff5c4c5cb1a089d63338a338e9183aeae477f3ec"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/65/65584af76a6c39736f197ba59c2e93adeaf5adcf9c4fc3ee46c4402bf01f603c.json.gz",
+      "bytes": 7755,
+      "sha256": "65584af76a6c39736f197ba59c2e93adeaf5adcf9c4fc3ee46c4402bf01f603c"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/65/65b3f0f17608b4d083fe55d236b5bcb56875695beceb127ee158024e5e9a627f.json.gz",
+      "bytes": 16187,
+      "sha256": "65b3f0f17608b4d083fe55d236b5bcb56875695beceb127ee158024e5e9a627f"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/68/686c7ceafc81d78ec2e52c82862dcbf0c98c6f7346ac74335b111e1c7a681d98.json.gz",
+      "bytes": 3755,
+      "sha256": "686c7ceafc81d78ec2e52c82862dcbf0c98c6f7346ac74335b111e1c7a681d98"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/6d/6d232fe3dd54808a62535d604196b5c0f79483e34251b946cf73fd3e8fb7548e.json.gz",
+      "bytes": 3750,
+      "sha256": "6d232fe3dd54808a62535d604196b5c0f79483e34251b946cf73fd3e8fb7548e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/6d/6d50bff22be1b6537cd2405b052628ddc86994f51d680dc7c2ba9878ccb38a0e.json.gz",
+      "bytes": 2575,
+      "sha256": "6d50bff22be1b6537cd2405b052628ddc86994f51d680dc7c2ba9878ccb38a0e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/6e/6e0eb4307533f0bdd9701fecc55e73ec135813017c9a94b83ba7465b1eb1605a.json.gz",
+      "bytes": 4989,
+      "sha256": "6e0eb4307533f0bdd9701fecc55e73ec135813017c9a94b83ba7465b1eb1605a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/6e/6ec476879de844e215032e096e0b30d976cfa558815c3d738fc2ce39d9e9c43e.json.gz",
+      "bytes": 3771,
+      "sha256": "6ec476879de844e215032e096e0b30d976cfa558815c3d738fc2ce39d9e9c43e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/70/7063d07ff49b9aacf3389f3915e8aeedb0bf9cc57239b914555b093f1a357429.json.gz",
+      "bytes": 14350,
+      "sha256": "7063d07ff49b9aacf3389f3915e8aeedb0bf9cc57239b914555b093f1a357429"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/72/721946da4120175c9c9a3942e36bb3e8b7a5ce2ed71854d080071fc64652be63.json.gz",
+      "bytes": 5030,
+      "sha256": "721946da4120175c9c9a3942e36bb3e8b7a5ce2ed71854d080071fc64652be63"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/72/725070e05bf7c8723a0f4add656febbd3ba7272000a7f8136f1dd53c14d1348d.json.gz",
+      "bytes": 7173,
+      "sha256": "725070e05bf7c8723a0f4add656febbd3ba7272000a7f8136f1dd53c14d1348d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/72/72c205bf28032a136c64470df8996ce2382589607520150c2d501692e7cff2e5.json.gz",
+      "bytes": 8172,
+      "sha256": "72c205bf28032a136c64470df8996ce2382589607520150c2d501692e7cff2e5"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/73/73b13918d465e506a134293b25fdd197dbac8ea0b9ba525f61eb472735a5a5e1.json.gz",
+      "bytes": 14323,
+      "sha256": "73b13918d465e506a134293b25fdd197dbac8ea0b9ba525f61eb472735a5a5e1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/74/741657c71deee796621762b0d19572c3499afbfde5c49c9d7a716b93774e8c08.json.gz",
+      "bytes": 14866,
+      "sha256": "741657c71deee796621762b0d19572c3499afbfde5c49c9d7a716b93774e8c08"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/74/74ce97fb82eae346f2e847911a19ddb9790d60b793f05fe440e4a8177118cd36.json.gz",
+      "bytes": 8297,
+      "sha256": "74ce97fb82eae346f2e847911a19ddb9790d60b793f05fe440e4a8177118cd36"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/75/75bd518a05132f33534987d79a997d5fd3162326dca6bccd22690c6f8fe65bb5.json.gz",
+      "bytes": 14514,
+      "sha256": "75bd518a05132f33534987d79a997d5fd3162326dca6bccd22690c6f8fe65bb5"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/76/760b8f7c37cfad01e26e6ed8ded14ae3333e67ac0df6f0569bc7623b33350138.json.gz",
+      "bytes": 4223,
+      "sha256": "760b8f7c37cfad01e26e6ed8ded14ae3333e67ac0df6f0569bc7623b33350138"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/76/76b87e458edfe2b968f77d8cda2762cf592d1486a7c1d659fbc5bc4b409df575.json.gz",
+      "bytes": 1998,
+      "sha256": "76b87e458edfe2b968f77d8cda2762cf592d1486a7c1d659fbc5bc4b409df575"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/76/76e838d09ae244534b8ea4c3a8796eea10251fe1e9a6f623c7799451d19fd35b.json.gz",
+      "bytes": 2047,
+      "sha256": "76e838d09ae244534b8ea4c3a8796eea10251fe1e9a6f623c7799451d19fd35b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/77/77121758c76bac1fc5d63f3b0a06a7813d10eed52130cf490bbb942c626b96c4.json.gz",
+      "bytes": 1766,
+      "sha256": "77121758c76bac1fc5d63f3b0a06a7813d10eed52130cf490bbb942c626b96c4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/7a/7a21c4622620493e9e0b4a87eb85c544fb75260b626e8f4086790ed46c5637d9.json.gz",
+      "bytes": 2340,
+      "sha256": "7a21c4622620493e9e0b4a87eb85c544fb75260b626e8f4086790ed46c5637d9"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/7a/7a4cc82d6f1badf37d26610a25d67d2a7e09f8c109523278f790362066c33a06.json.gz",
+      "bytes": 22963,
+      "sha256": "7a4cc82d6f1badf37d26610a25d67d2a7e09f8c109523278f790362066c33a06"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/7c/7c4593c8daab2453e9f633bb7d59d82c57580a0d031ef10fe8440b6a84ba08e5.json.gz",
+      "bytes": 2351,
+      "sha256": "7c4593c8daab2453e9f633bb7d59d82c57580a0d031ef10fe8440b6a84ba08e5"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/7d/7d75e2ba98c480a4f76377bd7d982f4c3ea3bf4560203c70ffe656e64ecdb3a0.json.gz",
+      "bytes": 1826,
+      "sha256": "7d75e2ba98c480a4f76377bd7d982f4c3ea3bf4560203c70ffe656e64ecdb3a0"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/7f/7f172c8a85f5b3865b8aaf8b1e4a99052fb6f620db26b128127c78f719fde56b.json.gz",
+      "bytes": 2114,
+      "sha256": "7f172c8a85f5b3865b8aaf8b1e4a99052fb6f620db26b128127c78f719fde56b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/80/80c86fe3bd780bf5f016573b886d4b8aea9c75441ffe4254ec96af44871030ae.json.gz",
+      "bytes": 2449,
+      "sha256": "80c86fe3bd780bf5f016573b886d4b8aea9c75441ffe4254ec96af44871030ae"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/81/815ac1ee41cf8758a51f7c3c3ebf3316fffa4369e29eefe507bec1ae9fdfb490.json.gz",
+      "bytes": 3281,
+      "sha256": "815ac1ee41cf8758a51f7c3c3ebf3316fffa4369e29eefe507bec1ae9fdfb490"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/82/821c3fe72e12c6b15b529846c599ab83da079c294d9981a0ebecf7812c67687c.json.gz",
+      "bytes": 1492,
+      "sha256": "821c3fe72e12c6b15b529846c599ab83da079c294d9981a0ebecf7812c67687c"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/82/8269043db9bcde968f8300fadceb2ed8078c4def0a668fedff558a3b09a480d2.json.gz",
+      "bytes": 4984,
+      "sha256": "8269043db9bcde968f8300fadceb2ed8078c4def0a668fedff558a3b09a480d2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/82/82f25450a94c28e82834f85f4f02cafdf3be8796267427426973b2a13e5c20bc.json.gz",
+      "bytes": 5076,
+      "sha256": "82f25450a94c28e82834f85f4f02cafdf3be8796267427426973b2a13e5c20bc"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/85/85fd22c9f7da212214eca69bb148979279e85eee30265ed305749d03339c780a.json.gz",
+      "bytes": 1558,
+      "sha256": "85fd22c9f7da212214eca69bb148979279e85eee30265ed305749d03339c780a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/86/868395689942ca50e07625134643217f81be994ac6484c2478910dcd6336ae50.json.gz",
+      "bytes": 3712,
+      "sha256": "868395689942ca50e07625134643217f81be994ac6484c2478910dcd6336ae50"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/87/87ead974b50b92616f2d8ccb1ed0e3c1ae25ee5de317818ff227c936675cc06c.json.gz",
+      "bytes": 2714,
+      "sha256": "87ead974b50b92616f2d8ccb1ed0e3c1ae25ee5de317818ff227c936675cc06c"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/8a/8adaf87bf863558ccf0cceeee2645ae82846affe37e7c7d586dbc4099b268f74.json.gz",
+      "bytes": 22301,
+      "sha256": "8adaf87bf863558ccf0cceeee2645ae82846affe37e7c7d586dbc4099b268f74"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/8c/8cbed13915725afd960d5d3f8db1f601fef3046068ac5cefeb4918380d65e8a4.json.gz",
+      "bytes": 1771,
+      "sha256": "8cbed13915725afd960d5d3f8db1f601fef3046068ac5cefeb4918380d65e8a4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/8d/8db8a25da8a6f893cb57eab76a05146503dd943c348dc6ea3e91a02530b79744.json.gz",
+      "bytes": 22082,
+      "sha256": "8db8a25da8a6f893cb57eab76a05146503dd943c348dc6ea3e91a02530b79744"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/8e/8ece383778b54c40d8c980b870d4d1343bef212fff3c4213d7aa69c7285ff20a.json.gz",
+      "bytes": 2410,
+      "sha256": "8ece383778b54c40d8c980b870d4d1343bef212fff3c4213d7aa69c7285ff20a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/8f/8f810bc5b492bd58a51de499d46df20bc7af0daea39cae6aef86d4193dd05474.json.gz",
+      "bytes": 5682,
+      "sha256": "8f810bc5b492bd58a51de499d46df20bc7af0daea39cae6aef86d4193dd05474"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/91/91337445a684094336cb263e4f4706b2ab1c71ae33e6b765992a0861af623a69.json.gz",
+      "bytes": 2419,
+      "sha256": "91337445a684094336cb263e4f4706b2ab1c71ae33e6b765992a0861af623a69"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/91/9171f34475098a8e95aa423889dc3cd1fd2be1bfd9d5a34a26974b58538e29d2.json.gz",
+      "bytes": 8642,
+      "sha256": "9171f34475098a8e95aa423889dc3cd1fd2be1bfd9d5a34a26974b58538e29d2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/93/9348f4405c6883fc14d4fe9fc4a25fdb6246b849fd23ee53e36cce0810dfc01a.json.gz",
+      "bytes": 5078,
+      "sha256": "9348f4405c6883fc14d4fe9fc4a25fdb6246b849fd23ee53e36cce0810dfc01a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/93/93d5488a188198a7782ffc37b0c504df39b2b4bee017cf6eca7e89b356520763.json.gz",
+      "bytes": 5211,
+      "sha256": "93d5488a188198a7782ffc37b0c504df39b2b4bee017cf6eca7e89b356520763"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/94/94a3f07d49c2de5023ea9710c68a16e5153db1228a8224e621e30fc5a26875cd.json.gz",
+      "bytes": 2433,
+      "sha256": "94a3f07d49c2de5023ea9710c68a16e5153db1228a8224e621e30fc5a26875cd"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/95/95a121cb815844a30645f79a19bbd1ecccbfacb42e54caad5f876953fcefffe0.json.gz",
+      "bytes": 14241,
+      "sha256": "95a121cb815844a30645f79a19bbd1ecccbfacb42e54caad5f876953fcefffe0"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/98/98fc7ce0607acc8e9d1697c17ad1850a45f175efdccd8beec3a294e30652cf8c.json.gz",
+      "bytes": 2277,
+      "sha256": "98fc7ce0607acc8e9d1697c17ad1850a45f175efdccd8beec3a294e30652cf8c"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/9b/9bb58030ca2e94a58ab1012d671e89e34040111f733001e2b052de529d227e75.json.gz",
+      "bytes": 23497,
+      "sha256": "9bb58030ca2e94a58ab1012d671e89e34040111f733001e2b052de529d227e75"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/9c/9cdfc62710a0385ca86d34ff4e3506e938fb7055f3ebfbf23b41102510df04d7.json.gz",
+      "bytes": 5232,
+      "sha256": "9cdfc62710a0385ca86d34ff4e3506e938fb7055f3ebfbf23b41102510df04d7"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/9c/9cf8417ad56599d225a4ec3fbe9b9a4166add4cd23542de85ac2fbe83b1946d8.json.gz",
+      "bytes": 2338,
+      "sha256": "9cf8417ad56599d225a4ec3fbe9b9a4166add4cd23542de85ac2fbe83b1946d8"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/9d/9df8e5921e19d7db1e96430c851a89c9a204a7d2039923344d2c89173041365f.json.gz",
+      "bytes": 4550,
+      "sha256": "9df8e5921e19d7db1e96430c851a89c9a204a7d2039923344d2c89173041365f"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a0/a051b83827be51c723615a290366b69f80db2d4f232cbe59d4a129fbe631d04d.json.gz",
+      "bytes": 1824,
+      "sha256": "a051b83827be51c723615a290366b69f80db2d4f232cbe59d4a129fbe631d04d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a1/a15348707d004ab3f2115f81ba8cb85ac157433538cc20deebff5d9eeb9fee74.json.gz",
+      "bytes": 21660,
+      "sha256": "a15348707d004ab3f2115f81ba8cb85ac157433538cc20deebff5d9eeb9fee74"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a1/a1bb5b86bd16286ee4192a9bb8024ed467cd136a14e7d43421abfdb20fcb90e2.json.gz",
+      "bytes": 21744,
+      "sha256": "a1bb5b86bd16286ee4192a9bb8024ed467cd136a14e7d43421abfdb20fcb90e2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a2/a261867a0ebbd63edf745daab52248dd3467b2c000ccbc80b45b6c579dc2b159.json.gz",
+      "bytes": 3768,
+      "sha256": "a261867a0ebbd63edf745daab52248dd3467b2c000ccbc80b45b6c579dc2b159"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a2/a2ec97aa188ac831c745305b7b6ddfd07307e977259947b526226daf33705a85.json.gz",
+      "bytes": 2331,
+      "sha256": "a2ec97aa188ac831c745305b7b6ddfd07307e977259947b526226daf33705a85"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a5/a5dea4d45d9650a8ed760ed1cfa6c846bd2d18d93deff92f94a3a34f1ccf53e2.json.gz",
+      "bytes": 22338,
+      "sha256": "a5dea4d45d9650a8ed760ed1cfa6c846bd2d18d93deff92f94a3a34f1ccf53e2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a6/a6f7bb407a37ef3f193381dfbc37e72bde0d7d6ea08e12f3d27e86f9109a6cb7.json.gz",
+      "bytes": 3631,
+      "sha256": "a6f7bb407a37ef3f193381dfbc37e72bde0d7d6ea08e12f3d27e86f9109a6cb7"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a8/a8db23d2c1cba27e0b4f8a79d5da31fc6b0e95d0282d0bbfb66968c5daa77e4d.json.gz",
+      "bytes": 2294,
+      "sha256": "a8db23d2c1cba27e0b4f8a79d5da31fc6b0e95d0282d0bbfb66968c5daa77e4d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/a9/a907e48bf142f55e024f5b9fd1e7b673d300a5ede9e640ee4fa71dcc03bc3eb3.json.gz",
+      "bytes": 1411,
+      "sha256": "a907e48bf142f55e024f5b9fd1e7b673d300a5ede9e640ee4fa71dcc03bc3eb3"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/aa/aab639cbbf0b0f792281b0414751e55580d4f67cf2ebf0067edabe8f274113b5.json.gz",
+      "bytes": 2292,
+      "sha256": "aab639cbbf0b0f792281b0414751e55580d4f67cf2ebf0067edabe8f274113b5"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/aa/aadcb866f4e58f871b941c4573618fd84a1a098ee94dc51cc1f0eba4a6a11541.json.gz",
+      "bytes": 8386,
+      "sha256": "aadcb866f4e58f871b941c4573618fd84a1a098ee94dc51cc1f0eba4a6a11541"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/ad/adb7e572277de526d89db95e203f0a404a50f8d34253e2ebaee3a8cfe783ce4e.json.gz",
+      "bytes": 4392,
+      "sha256": "adb7e572277de526d89db95e203f0a404a50f8d34253e2ebaee3a8cfe783ce4e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/af/af7457c770cb85ace38731f84364dde6553bee6cc08905b96b3a7df785296eca.json.gz",
+      "bytes": 2391,
+      "sha256": "af7457c770cb85ace38731f84364dde6553bee6cc08905b96b3a7df785296eca"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/af/af7dc367470d865946f2c3fde4d6362ec0aa2ed27fe9226a7581f56f5e6816af.json.gz",
+      "bytes": 1924,
+      "sha256": "af7dc367470d865946f2c3fde4d6362ec0aa2ed27fe9226a7581f56f5e6816af"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b0/b0b83eadad0061549b153c1d53f404e81c018f51d5624e97a4245c75327e1391.json.gz",
+      "bytes": 2199,
+      "sha256": "b0b83eadad0061549b153c1d53f404e81c018f51d5624e97a4245c75327e1391"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b1/b1b07ace4da17c98bebcf4e32f5174bd5080795eabb0df54e9b00add2833c6b2.json.gz",
+      "bytes": 2094,
+      "sha256": "b1b07ace4da17c98bebcf4e32f5174bd5080795eabb0df54e9b00add2833c6b2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b2/b2add47b038906ca175960286490dab8ed88103bf7d5aeadffae8c822f3cc693.json.gz",
+      "bytes": 2363,
+      "sha256": "b2add47b038906ca175960286490dab8ed88103bf7d5aeadffae8c822f3cc693"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b3/b30072a0df7da6f61ffee57d69d0555e20f2a618efece74d704a38b31a697a30.json.gz",
+      "bytes": 21335,
+      "sha256": "b30072a0df7da6f61ffee57d69d0555e20f2a618efece74d704a38b31a697a30"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b5/b51d044b1606ecb65ea1a2866c8ed4f1f301a77fa366bf407bb8fef337285670.json.gz",
+      "bytes": 2561,
+      "sha256": "b51d044b1606ecb65ea1a2866c8ed4f1f301a77fa366bf407bb8fef337285670"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b5/b5e77565c8f5bbb63d3d6285a976d324261f750d0fb5908da02a88e21b36790c.json.gz",
+      "bytes": 3342,
+      "sha256": "b5e77565c8f5bbb63d3d6285a976d324261f750d0fb5908da02a88e21b36790c"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b7/b71d7204e7f0b0842346ecbbb4834c0ac6124f47ce8b1de558e00c2abd0cbc31.json.gz",
+      "bytes": 1846,
+      "sha256": "b71d7204e7f0b0842346ecbbb4834c0ac6124f47ce8b1de558e00c2abd0cbc31"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b7/b7d35f4fde6c4888e72d6d0899a61b2372dc09b185f630f80693c61face1e77e.json.gz",
+      "bytes": 1856,
+      "sha256": "b7d35f4fde6c4888e72d6d0899a61b2372dc09b185f630f80693c61face1e77e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b7/b7db6a257aad6501cc21787fb0297eb80d45437dd403fad9d9d4d51b5cd6a26f.json.gz",
+      "bytes": 1799,
+      "sha256": "b7db6a257aad6501cc21787fb0297eb80d45437dd403fad9d9d4d51b5cd6a26f"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/b8/b86bda7adb6ecd4c023213e4af8d79e81dba81491cbc2b926cdce1e2ffe3fb72.json.gz",
+      "bytes": 1582,
+      "sha256": "b86bda7adb6ecd4c023213e4af8d79e81dba81491cbc2b926cdce1e2ffe3fb72"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/ba/bad678c29e8cad79601f302cf2aa404b0f7dbe8a2dc02859c9449a645c184941.json.gz",
+      "bytes": 14443,
+      "sha256": "bad678c29e8cad79601f302cf2aa404b0f7dbe8a2dc02859c9449a645c184941"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/bc/bc13d9d9ddc18dd372e06dea9777f495b8eda55aea94b43071b2e7e4e51b4ea0.json.gz",
+      "bytes": 3035,
+      "sha256": "bc13d9d9ddc18dd372e06dea9777f495b8eda55aea94b43071b2e7e4e51b4ea0"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/bc/bc36025f438db536ba823cb59430baf6ad776ad12cb32a9c87cf43479d5243f8.json.gz",
+      "bytes": 1945,
+      "sha256": "bc36025f438db536ba823cb59430baf6ad776ad12cb32a9c87cf43479d5243f8"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/bc/bcab86bdaf0fc196bb9e5d179942c3513ec9731058330d6f26c911f5e8a3ca0e.json.gz",
+      "bytes": 8709,
+      "sha256": "bcab86bdaf0fc196bb9e5d179942c3513ec9731058330d6f26c911f5e8a3ca0e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/bd/bd009113678da4cdd9b3f95be1fb585d88785cd807c74cfa13a4f5b45ff24d2e.json.gz",
+      "bytes": 1547,
+      "sha256": "bd009113678da4cdd9b3f95be1fb585d88785cd807c74cfa13a4f5b45ff24d2e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/be/be4635ba67eb88cb8670449865e6e5af24d1c99f15fb9cfea8dafab5b12cef3c.json.gz",
+      "bytes": 2232,
+      "sha256": "be4635ba67eb88cb8670449865e6e5af24d1c99f15fb9cfea8dafab5b12cef3c"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/c1/c18490e73a88fd829cca7da0b9afe072d3ff91a6fd59f1a97aff147a6200513e.json.gz",
+      "bytes": 2084,
+      "sha256": "c18490e73a88fd829cca7da0b9afe072d3ff91a6fd59f1a97aff147a6200513e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/c1/c1ab6f30c90f8ab190bc7346c7cc17ded6a02e259d859713a7c68814ac881419.json.gz",
+      "bytes": 2352,
+      "sha256": "c1ab6f30c90f8ab190bc7346c7cc17ded6a02e259d859713a7c68814ac881419"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/c3/c326c0f9850789e88deddbb15c9ac900ec65fd24621ba7675f908b345b9ae7d0.json.gz",
+      "bytes": 8413,
+      "sha256": "c326c0f9850789e88deddbb15c9ac900ec65fd24621ba7675f908b345b9ae7d0"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/c4/c4f8fcb912ed54a17cf00cc0f9bcc2adc7429c01a51ca33b3d814609e378e790.json.gz",
+      "bytes": 2297,
+      "sha256": "c4f8fcb912ed54a17cf00cc0f9bcc2adc7429c01a51ca33b3d814609e378e790"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/c7/c73ba40d214351238f42788370ec8f7c322d98b57682cc02b2ffb72c673ea6de.json.gz",
+      "bytes": 1938,
+      "sha256": "c73ba40d214351238f42788370ec8f7c322d98b57682cc02b2ffb72c673ea6de"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/c8/c80f7194121fc6200065ff5bf4e3f38c57cef3fec919fa1bf9748e1f06dcda9f.json.gz",
+      "bytes": 2524,
+      "sha256": "c80f7194121fc6200065ff5bf4e3f38c57cef3fec919fa1bf9748e1f06dcda9f"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/c9/c95f41b51fe2e61b28eaef139a0214da4b84640ee992e8c434ce15e1718bf0ed.json.gz",
+      "bytes": 5107,
+      "sha256": "c95f41b51fe2e61b28eaef139a0214da4b84640ee992e8c434ce15e1718bf0ed"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/ca/ca4f0b254e8c0e1be459f37cca49d743bf6412d6d5796d2605fd0cea776abfcd.json.gz",
+      "bytes": 2993,
+      "sha256": "ca4f0b254e8c0e1be459f37cca49d743bf6412d6d5796d2605fd0cea776abfcd"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/cc/ccee1ed445daeec14ec1ab704171ad7d924a08e25b872ef9cebd391e1965681b.json.gz",
+      "bytes": 1731,
+      "sha256": "ccee1ed445daeec14ec1ab704171ad7d924a08e25b872ef9cebd391e1965681b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/d0/d0958e3e5bb27a5b8677cbe45cfd565600039c4be413bb984cb3769fc9df0676.json.gz",
+      "bytes": 17516,
+      "sha256": "d0958e3e5bb27a5b8677cbe45cfd565600039c4be413bb984cb3769fc9df0676"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/d1/d10db5bc8d42681db98b004efe0aa2c2b031f30612060866ba45e099ff862a82.json.gz",
+      "bytes": 16205,
+      "sha256": "d10db5bc8d42681db98b004efe0aa2c2b031f30612060866ba45e099ff862a82"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/d1/d141fdba660633b612f08b8348752d40488a47e8c2a04349ca62136b8d553357.json.gz",
+      "bytes": 16206,
+      "sha256": "d141fdba660633b612f08b8348752d40488a47e8c2a04349ca62136b8d553357"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/d2/d2848384bfa51f9d0b2b45b1408c1d044312086a8a509b57fc82c0c6873376af.json.gz",
+      "bytes": 3216,
+      "sha256": "d2848384bfa51f9d0b2b45b1408c1d044312086a8a509b57fc82c0c6873376af"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/d6/d6c4cf444bcfadfd93a3db5a07b2fe54df5e1318851a2a03408188cae369ab5a.json.gz",
+      "bytes": 2031,
+      "sha256": "d6c4cf444bcfadfd93a3db5a07b2fe54df5e1318851a2a03408188cae369ab5a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/da/da33ad82ef4ebeeb475bdfa7a229919b384cc88164f9d7ca0819c6f587d58057.json.gz",
+      "bytes": 2419,
+      "sha256": "da33ad82ef4ebeeb475bdfa7a229919b384cc88164f9d7ca0819c6f587d58057"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/da/daa6c5381687c0a7c0677770d8b8966f82a88b3ff359156b7d62f10a18fbb8a9.json.gz",
+      "bytes": 5621,
+      "sha256": "daa6c5381687c0a7c0677770d8b8966f82a88b3ff359156b7d62f10a18fbb8a9"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/db/db9060be78e50dc18c9ab1189e4fc14df4d7770f5781359f94c091e364a30c0b.json.gz",
+      "bytes": 16038,
+      "sha256": "db9060be78e50dc18c9ab1189e4fc14df4d7770f5781359f94c091e364a30c0b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/dc/dc92112913786664d0b042d19001c04f13af7bc4a7d5abad10c865b158e1ad25.json.gz",
+      "bytes": 4294,
+      "sha256": "dc92112913786664d0b042d19001c04f13af7bc4a7d5abad10c865b158e1ad25"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e0/e097cf9c1c2fc412eadb8aa8d2e1695e81d97d304f32f93a5caa6959fc89e210.json.gz",
+      "bytes": 8703,
+      "sha256": "e097cf9c1c2fc412eadb8aa8d2e1695e81d97d304f32f93a5caa6959fc89e210"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e0/e0c51e0b4bb172e871e29d2d569ff5e31e40240f6c434a6523e942f9147ae4a1.json.gz",
+      "bytes": 1868,
+      "sha256": "e0c51e0b4bb172e871e29d2d569ff5e31e40240f6c434a6523e942f9147ae4a1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e1/e130f19d018bc3e51a6de95dd8c5ab1af7d89a9ca5994ad7f7e9bfe7306f0008.json.gz",
+      "bytes": 2083,
+      "sha256": "e130f19d018bc3e51a6de95dd8c5ab1af7d89a9ca5994ad7f7e9bfe7306f0008"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e1/e1a53b219b7d7b2f552c75f9c802db14fefa522c429411c27a914b816dc867ef.json.gz",
+      "bytes": 7186,
+      "sha256": "e1a53b219b7d7b2f552c75f9c802db14fefa522c429411c27a914b816dc867ef"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e3/e3d1604e70a6e6eb39f9e44cd2f148c2e1bc9f38dcb095219f00f20575d6c915.json.gz",
+      "bytes": 5552,
+      "sha256": "e3d1604e70a6e6eb39f9e44cd2f148c2e1bc9f38dcb095219f00f20575d6c915"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e6/e65a23ea437ba50789cc8d2fd0416cd739df8998ed020c8d86972e44d495722b.json.gz",
+      "bytes": 2477,
+      "sha256": "e65a23ea437ba50789cc8d2fd0416cd739df8998ed020c8d86972e44d495722b"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e7/e7ced26ece37179e11a9d8e79d0ea4f1f4cd7c9bdc4c344f06c67bd3354481c1.json.gz",
+      "bytes": 1934,
+      "sha256": "e7ced26ece37179e11a9d8e79d0ea4f1f4cd7c9bdc4c344f06c67bd3354481c1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e8/e81c0d5c3262b2ca252bde2119fe094ae1d8b12bd253ba7d876a47d90c4bd09e.json.gz",
+      "bytes": 15176,
+      "sha256": "e81c0d5c3262b2ca252bde2119fe094ae1d8b12bd253ba7d876a47d90c4bd09e"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/e9/e9c05d2692190a5732714954ff3dca3e639daa080c27217ff884222da469a308.json.gz",
+      "bytes": 3673,
+      "sha256": "e9c05d2692190a5732714954ff3dca3e639daa080c27217ff884222da469a308"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/ea/ea73612a5f79ce468c6b05b6635b4e9628c2c9c4328df2f242af6a8a7ee9a738.json.gz",
+      "bytes": 14337,
+      "sha256": "ea73612a5f79ce468c6b05b6635b4e9628c2c9c4328df2f242af6a8a7ee9a738"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/ea/eaca1f0ed66cfb3c94e24e540aaaf5b574e37af1fca4485a5dc8b1dab5ddfdb8.json.gz",
+      "bytes": 5439,
+      "sha256": "eaca1f0ed66cfb3c94e24e540aaaf5b574e37af1fca4485a5dc8b1dab5ddfdb8"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/eb/eb6ed81ecd363300c832945f1bce0f69e05c0b1eb495ee51e525f6bf352149a4.json.gz",
+      "bytes": 2093,
+      "sha256": "eb6ed81ecd363300c832945f1bce0f69e05c0b1eb495ee51e525f6bf352149a4"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/eb/eb84068d499aaf24ee50c0806d635df55d29baa1f378cdaaf4330eb51971af6a.json.gz",
+      "bytes": 1702,
+      "sha256": "eb84068d499aaf24ee50c0806d635df55d29baa1f378cdaaf4330eb51971af6a"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/ec/ec77320370d4ffaf6c73202bc370341837b5681b70bc5a8abb5e423d13712264.json.gz",
+      "bytes": 23343,
+      "sha256": "ec77320370d4ffaf6c73202bc370341837b5681b70bc5a8abb5e423d13712264"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/ec/ece77eb0e42f86feb43af03503def618d1d23f2e13c88a52a8a2383689b98307.json.gz",
+      "bytes": 2007,
+      "sha256": "ece77eb0e42f86feb43af03503def618d1d23f2e13c88a52a8a2383689b98307"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/f1/f178fa35edbd55ce07ca8b8ade5b81ce11251aa1dc927d7164acc4c3850ff606.json.gz",
+      "bytes": 1812,
+      "sha256": "f178fa35edbd55ce07ca8b8ade5b81ce11251aa1dc927d7164acc4c3850ff606"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/f3/f3b6a114d55f4bbe5f8eeb47c83361782be501b24bc58d41ed8b439a61799fa2.json.gz",
+      "bytes": 2426,
+      "sha256": "f3b6a114d55f4bbe5f8eeb47c83361782be501b24bc58d41ed8b439a61799fa2"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/f5/f577e34313cc9568d799fcb73ccc9957ae5962c256a757e9c694f47f9a5c617d.json.gz",
+      "bytes": 3697,
+      "sha256": "f577e34313cc9568d799fcb73ccc9957ae5962c256a757e9c694f47f9a5c617d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/f6/f6f7ff66a6067f2a30196a8c792f09213ed6daacdde55853e606d2598d4cba49.json.gz",
+      "bytes": 5357,
+      "sha256": "f6f7ff66a6067f2a30196a8c792f09213ed6daacdde55853e606d2598d4cba49"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/f9/f96d88ef02609ce41b33709cae3b435d8c579ba61bb48b542a89fe6bab34992d.json.gz",
+      "bytes": 22720,
+      "sha256": "f96d88ef02609ce41b33709cae3b435d8c579ba61bb48b542a89fe6bab34992d"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/f9/f9c7d4647d80967f72521d34a089513d6863ec089d6e41a3c1724973e7ad98b1.json.gz",
+      "bytes": 22452,
+      "sha256": "f9c7d4647d80967f72521d34a089513d6863ec089d6e41a3c1724973e7ad98b1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/fb/fb705d0066fc96a74ae3cc4a98d48f33167386a753f86b8a7123636a82de8ed1.json.gz",
+      "bytes": 4637,
+      "sha256": "fb705d0066fc96a74ae3cc4a98d48f33167386a753f86b8a7123636a82de8ed1"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/fc/fc8f529144c16263b9ffa0f8fa7708676e27d02b6cdc8ba2162807fa402993d6.json.gz",
+      "bytes": 1986,
+      "sha256": "fc8f529144c16263b9ffa0f8fa7708676e27d02b6cdc8ba2162807fa402993d6"
+    },
+    {
+      "path": "public/data/rock-catalog-v3/objects/sha256/fc/fcced7a86e6b5765ab90cf822ae62a86994e63cd72a1595398078275d8e8bee3.json.gz",
+      "bytes": 2563,
+      "sha256": "fcced7a86e6b5765ab90cf822ae62a86994e63cd72a1595398078275d8e8bee3"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 361,
+      "sha256": "23fa808f1381382e8cdb349462f7711a7de003fbe9a5038f402008abec84f5bf"
+    },
+    {
+      "path": "public/fonts/ioskeley-mono/IoskeleyMono-Bold.woff2",
+      "bytes": 311656,
+      "sha256": "a7eb9a62b9da3467a55c72aff8b4b474cc7358f46ae0c819df5b6de1ee9f5ac5"
+    },
+    {
+      "path": "public/fonts/ioskeley-mono/IoskeleyMono-Medium.woff2",
+      "bytes": 312856,
+      "sha256": "12cf08e63b17c05b15813ecabb41bfdc56f93fa3dc3629bef4318eb399d37282"
+    },
+    {
+      "path": "public/fonts/ioskeley-mono/IoskeleyMono-Regular.woff2",
+      "bytes": 314060,
+      "sha256": "5fd2f4ef838328e2008cec5faac08a5c3cd49a185908a17ff68e87839de1bea7"
+    },
+    {
+      "path": "public/fonts/ioskeley-mono/IoskeleyMono-SemiBold.woff2",
+      "bytes": 312620,
+      "sha256": "fe98573ab38ee11a6882b21293b6a26efe60bc98f5a0d6dfd78853001bc6b277"
+    },
+    {
+      "path": "public/fonts/ioskeley-mono/OFL-1.1.txt",
+      "bytes": 4300,
+      "sha256": "1084285bd2bddf706d566e11a92fcbae2706da4a8eafac49ed34c871d01fb7fe"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1779,
+      "sha256": "c732c8cb656f87e525f3771fdacf0b6959ab50cbf147f0322cf307908a4905d0"
+    },
+    {
+      "path": "schemas/assertion-v1.schema.json",
+      "bytes": 3297,
+      "sha256": "e97b5c999f2c71e15677c87a3a3b0359c762b65babd33af580fb711b6d032a76"
+    },
+    {
+      "path": "schemas/candidate-view-model-v1.schema.json",
+      "bytes": 8122,
+      "sha256": "8521b1631d0825825fc644c7694a783a3f9d8024d5d47b2d0780d04a5dd18d35"
+    },
+    {
+      "path": "schemas/catalog-namespace-manifest-v3.schema.json",
+      "bytes": 2580,
+      "sha256": "b3470327e3454cdce21734da53c0db1264a7e1776e9de1236660d32113ccbdfb"
+    },
+    {
+      "path": "schemas/catalog-pointer-v3.schema.json",
+      "bytes": 2319,
+      "sha256": "ac432003285a24afc2fa52da4ba68fb10cccccc63c7997dffc42a9a9bbcf24a8"
+    },
+    {
+      "path": "schemas/catalog-root-manifest-v3.schema.json",
+      "bytes": 3757,
+      "sha256": "a4fd90d8495929a4d521725d39deb1ae82d08ae3f4f7dd96d56bdf4b2955eda7"
+    },
+    {
+      "path": "schemas/cli-result-v1.schema.json",
+      "bytes": 1115,
+      "sha256": "c55660a03643a1e8dedca6b2ced833f716c0eaa315f4b50c357d41743525f1ab"
+    },
+    {
+      "path": "schemas/conflict-set-v1.schema.json",
+      "bytes": 733,
+      "sha256": "af0f18d39eebd858fffe3856f4a8291ce6459792fe877fd4a7d2480a6b12cf84"
+    },
+    {
+      "path": "schemas/coverage-state-v1.schema.json",
+      "bytes": 1241,
+      "sha256": "a0b021fc8ef899e1c33921d836cdc604804228deb03addd33bdfc68e7f4d0def"
+    },
+    {
+      "path": "schemas/evidence-v1.schema.json",
+      "bytes": 1081,
+      "sha256": "586a06e8bb60931717372908bad7af3e24be840042fce10f4d7a6086296b12a7"
+    },
+    {
+      "path": "schemas/experiment-view-state-v1.schema.json",
+      "bytes": 1652,
+      "sha256": "c62f684bd50ce624f8e6e1242c49cfea77d2b2e4852a14ff5c718115dd4deb4f"
+    },
+    {
+      "path": "schemas/external-identity-assertion-v1.schema.json",
+      "bytes": 971,
+      "sha256": "e50f8a3d8ab6673749681d58f29cb2bb31a929d0413d038b0073087c32318c1a"
+    },
+    {
+      "path": "schemas/graph-v1.schema.json",
+      "bytes": 6490,
+      "sha256": "eb34778b432e05dac790285d5540865e52e4966385e5487aa8a4bbf47f3afc7e"
+    },
+    {
+      "path": "schemas/identity-event-v1.schema.json",
+      "bytes": 913,
+      "sha256": "654ca87ba3584ccd5d0346b7f78cd1b31a5f409ffd09bd6a62cef4b75b9fe9fd"
+    },
+    {
+      "path": "schemas/pack-manifest-v1.schema.json",
+      "bytes": 2173,
+      "sha256": "7dbd45de8186006122208ecd336c844fe4372a540ed39ea2183127679d91ae7c"
+    },
+    {
+      "path": "schemas/package-inclusion-v1.schema.json",
+      "bytes": 808,
+      "sha256": "016171d30db6da67313ebe43ad5cd09a52b99f3422123a7a2b72e1fb878597e5"
+    },
+    {
+      "path": "schemas/projection-manifest-v1.schema.json",
+      "bytes": 2482,
+      "sha256": "6e29ebc81d8e68a0eb284cf978a367856f045cbc146ce9f49cd937dc5220c025"
+    },
+    {
+      "path": "schemas/provenance-v1.schema.json",
+      "bytes": 931,
+      "sha256": "aabf0ef1780758ab25fc560be807f0623c83119c1021ee81caa7903c7b7648b9"
+    },
+    {
+      "path": "schemas/render-policy-v1.schema.json",
+      "bytes": 1597,
+      "sha256": "2d4c763a43289d3bfe5bd682cafb88006b999f4e3877ed7d5c0cc07aa5cf2df0"
+    },
+    {
+      "path": "schemas/research-event-v1.schema.json",
+      "bytes": 1121,
+      "sha256": "c74ddb2aa66bf9a78ddb38289ae35c2dde6ab808beadf8648e8056ee024a2c1c"
+    },
+    {
+      "path": "schemas/research-observation-v1.schema.json",
+      "bytes": 2149,
+      "sha256": "60e9e5e653b8d4351d89e7157090d6beeb490ef49dea6661f38981ead8bf7ba2"
+    },
+    {
+      "path": "schemas/research-readiness-v1.schema.json",
+      "bytes": 2376,
+      "sha256": "6dc1deb92a9c20b9cf817f8784ffb453a2d6ab51fe9fdd506faae5c7c4673506"
+    },
+    {
+      "path": "schemas/source-license-decision-v1.schema.json",
+      "bytes": 2028,
+      "sha256": "db4a6dbc06292154f713424c5a23268853af6e547b20ee01f21e146031071488"
+    },
+    {
+      "path": "schemas/style-relation-v2.schema.json",
+      "bytes": 4911,
+      "sha256": "8d1d3d8b7bda9468b13c4ce9ec7707bf66ca433f321d578fb5ad9a2ed888955b"
+    },
+    {
+      "path": "scripts/deploy-cloudflare.mjs",
+      "bytes": 5860,
+      "sha256": "bef0896962aa07772ffca509a59aee398391620ae7c3b500507a307c98f2a87d"
+    },
+    {
+      "path": "scripts/lib/cloudflare-static-publication.mjs",
+      "bytes": 8672,
+      "sha256": "7a14928e3011829a26ef95635984730ea81d4466e5f5bfce14479e04a73d8cd5"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 258,
+      "sha256": "f6c07d1603de1a1994a02a3c31f8b25799265f200f43a8462ef3c95624d1f18a"
+    },
+    {
+      "path": "src/app/audio/background-audio-controller.ts",
+      "bytes": 5141,
+      "sha256": "8675daa497d719e1a2351fa18d11a3dd464f4e696ff404fd41506b2992645958"
+    },
+    {
+      "path": "src/app/audio/BackgroundAudioPlayer.tsx",
+      "bytes": 3488,
+      "sha256": "1b8ce27340f0f854e2958575ec00cd8617f4db0d075f296a9b7e51aba7eb9e65"
+    },
+    {
+      "path": "src/app/evidence-model.ts",
+      "bytes": 3128,
+      "sha256": "58fd504a98f12bca620446b0d7105be70b4cb5d44e808b1fe0314c1b11217008"
+    },
+    {
+      "path": "src/app/experiment/AnimatedNumber.tsx",
+      "bytes": 520,
+      "sha256": "74501a2adf0a467360a51c34b7dcb0620e55a0e0a6949721bb4c2e1be13d01d0"
+    },
+    {
+      "path": "src/app/experiment/CandidateWorkspace.tsx",
+      "bytes": 20194,
+      "sha256": "cb4dab51ef557b4d4e723aca65c9c3d3e553dad57c890693c62217b5cd377226"
+    },
+    {
+      "path": "src/app/experiment/CatalogUniverseHomepage.tsx",
+      "bytes": 4016,
+      "sha256": "5008d32ca4716342989ccfbafff210bd9be65d26acd0534ec3bfec24ef3999a0"
+    },
+    {
+      "path": "src/app/experiment/EvidenceDrawer.tsx",
+      "bytes": 3358,
+      "sha256": "e45f146ce34af399c2c36d3a8affa38e76f922417ff3de1070da3bea33118402"
+    },
+    {
+      "path": "src/app/experiment/ExperimentApp.tsx",
+      "bytes": 8856,
+      "sha256": "7747a20a42250d3389709e50045c2028dbe05d403aae6bc901f82b0fc7b35fd1"
+    },
+    {
+      "path": "src/app/experiment/ExperimentReadinessPage.tsx",
+      "bytes": 2337,
+      "sha256": "e648f3077a940cced6800ac993816d37721b0f3b0920061b4ed3d1fefc4c0ca1"
+    },
+    {
+      "path": "src/app/experiment/RecentExplorations.tsx",
+      "bytes": 2345,
+      "sha256": "8726cbfe849f94df802a36afddc02d57c70f0911c7b755cc8a1756fd7ac3dcee"
+    },
+    {
+      "path": "src/app/experiment/ResearchStudyPages.tsx",
+      "bytes": 3274,
+      "sha256": "d5c6cbaea7f3c8cb1a628b099cad8394ff3a95f6d007eda953d01399becf3e77"
+    },
+    {
+      "path": "src/app/experiment/SharedEntry.tsx",
+      "bytes": 4723,
+      "sha256": "997d1676483963a08356f3f024420e13d11bce8e0b092cbf6314e9d42ffe2b96"
+    },
+    {
+      "path": "src/app/experiment/ui-motion.ts",
+      "bytes": 2811,
+      "sha256": "fe6b094dbf974cc441b54ff829e702bd22e7add28f40172012689519c74c6429"
+    },
+    {
+      "path": "src/app/experiment/universe-navigation.ts",
+      "bytes": 4856,
+      "sha256": "8cb512c3849c6ef21795732055fc1bd0fda9a4e38513ddaa43c129aa78dd8d21"
+    },
+    {
+      "path": "src/app/experiment/UniverseFallback.tsx",
+      "bytes": 14461,
+      "sha256": "96d58d661eb3793235c34c03ef13e677cef1e14712a8b1fdfee2733ba792a77d"
+    },
+    {
+      "path": "src/app/experiment/UniverseFilterMenu.tsx",
+      "bytes": 3793,
+      "sha256": "3253ffe554f695ee06772817678b21857e8a7ef45666ae7092a38095cb682578"
+    },
+    {
+      "path": "src/app/experiment/UniverseHomepage.tsx",
+      "bytes": 25565,
+      "sha256": "59c6bc255d3c76bfc440dbd142c372d0cdef474661297164c4fcbb690a215d84"
+    },
+    {
+      "path": "src/app/experiment/UniverseTooltip.tsx",
+      "bytes": 1028,
+      "sha256": "c47c7da5d09cbd9de7aa59a6a241ee04059895ca0aa3f1f8f860663b2c6bc011"
+    },
+    {
+      "path": "src/app/LegacyEvidencePage.tsx",
+      "bytes": 4562,
+      "sha256": "84fa2d24b28c172b50c12ac9634a23021e750b1d68fe8931f8833f68e17555c0"
+    },
+    {
+      "path": "src/app/motion/motion-attribute-ownership.ts",
+      "bytes": 1441,
+      "sha256": "b2c5ee5abf13b50206f871cff812399e84e14d9ae0ea089c38b94eca2c4a967b"
+    },
+    {
+      "path": "src/app/motion/motion-mode.ts",
+      "bytes": 1086,
+      "sha256": "b73a07d95de302d95ccf8c4a8bc36b091d2131b29bb4280a45292eefe648f1ed"
+    },
+    {
+      "path": "src/app/motion/MotionModeMenu.tsx",
+      "bytes": 3957,
+      "sha256": "4ac9d9b474d23bd3bba28a7dccd87673e9b2e4cc40b9cc9f788c605f6d345a4e"
+    },
+    {
+      "path": "src/app/motion/MotionModeProvider.tsx",
+      "bytes": 3145,
+      "sha256": "c97837370536c8f58a92a54c1b47a5afaf98288f8630ebd098c49b37a1cb203e"
+    },
+    {
+      "path": "src/app/shared/useDismissableLayer.ts",
+      "bytes": 1160,
+      "sha256": "fc3411e2c519e14d1611c442b13a0faf3edc878fc4a4c77d5ddcb3179f0a7363"
+    },
+    {
+      "path": "src/candidates/candidate-types.ts",
+      "bytes": 163,
+      "sha256": "3534be7c18644c4d76e5f75d3e059953a8dbd142e768dd32fc22d838fe2bfe31"
+    },
+    {
+      "path": "src/candidates/editorial/EditorialCandidate.tsx",
+      "bytes": 2101,
+      "sha256": "c90cf0822ddd919eac8c79e07e9048c69783068a020cc9a7a551707d1f8f772a"
+    },
+    {
+      "path": "src/candidates/three/ambient-frame-scheduler.ts",
+      "bytes": 2252,
+      "sha256": "328a0a35f291f89e2b385ae6a5b9470f5bb14f575dc6011638405acc8120c7a1"
+    },
+    {
+      "path": "src/candidates/three/ambient-scene-motion.ts",
+      "bytes": 6168,
+      "sha256": "35021ad069ac652a99a7b2682bb6859b667fc55d7bd3f6cd2f4cad490a269704"
+    },
+    {
+      "path": "src/candidates/three/AmbientSceneMotion.tsx",
+      "bytes": 5933,
+      "sha256": "f5c3af9c0986ee75b983c59f48b8a1a69a72ee4210aec948822cfc521e33bb7f"
+    },
+    {
+      "path": "src/candidates/three/bridge-visual.ts",
+      "bytes": 626,
+      "sha256": "30e6be6c390ab4fc4454391290cbf098d31fc93fa83f95c9ff61e5efb6d314c7"
+    },
+    {
+      "path": "src/candidates/three/CelestialSphere.tsx",
+      "bytes": 4812,
+      "sha256": "cdf07ac9606314b3f24c31708f3814645819276f3440d1269cbca638757a3e68"
+    },
+    {
+      "path": "src/candidates/three/nebula-spiral-profile.ts",
+      "bytes": 3638,
+      "sha256": "bbd7ea8abf2548090630c915bf6896f64a1cd7c396fe06b7040c334c19d32b4f"
+    },
+    {
+      "path": "src/candidates/three/orbit-body-visual.ts",
+      "bytes": 1187,
+      "sha256": "cd22cd75ce34c84957aaa50b752a5298f9db0da2072d5f86731d3ad395514ee2"
+    },
+    {
+      "path": "src/candidates/three/orbit-hover-visual.ts",
+      "bytes": 1682,
+      "sha256": "554fcab5cf600bacba21d16dce20fe8a9eeb87addfdf1989e88c4d76cbcf746f"
+    },
+    {
+      "path": "src/candidates/three/particle-bridge-geometry.ts",
+      "bytes": 1922,
+      "sha256": "421a452647daf61776972ee32a738f396e9a5b71cecd720a47cb11bbaa9dd545"
+    },
+    {
+      "path": "src/candidates/three/particle-orbit-track.ts",
+      "bytes": 983,
+      "sha256": "122f8569eda5f6eeac3057e30bb92f702befffdc9ba231c385124e262545d9b1"
+    },
+    {
+      "path": "src/candidates/three/ParticleStar.tsx",
+      "bytes": 5992,
+      "sha256": "dc7af511fa2b52c166f345f6c177ae1a6aacce300ba02ab5484b3a2657131184"
+    },
+    {
+      "path": "src/candidates/three/round-particle-texture.ts",
+      "bytes": 1144,
+      "sha256": "d7f5c12c6c9added629210a0adec9f8760a20292659ed97b20301384d398b269"
+    },
+    {
+      "path": "src/candidates/three/scene-model.ts",
+      "bytes": 1203,
+      "sha256": "dae1f3f3e66d267ba3fe11713b49dea4d5f5c45e521f584da6180526c1c9354b"
+    },
+    {
+      "path": "src/candidates/three/StyleNebula.tsx",
+      "bytes": 7919,
+      "sha256": "9c454ae3c8992c149af0f941d972689f00c0a7e17b3cc78d3e24d85a25585813"
+    },
+    {
+      "path": "src/candidates/three/ThreeCandidate.tsx",
+      "bytes": 20447,
+      "sha256": "bdba41d4aae5e0f9f47c1eca9fadc8cef960b7365e9b80a006ac31576468c50b"
+    },
+    {
+      "path": "src/candidates/three/transient-particle-geometry.ts",
+      "bytes": 1396,
+      "sha256": "e11b3e7747d7f36046065158822c3bf65477d094f2aa44b6a1c16c447e0c8970"
+    },
+    {
+      "path": "src/candidates/three/transient-scene-motion.ts",
+      "bytes": 3536,
+      "sha256": "2a3fbe3f1b6d4976f9c7206cc5856ee76394cc494ee3a2844370c38cf0848c4e"
+    },
+    {
+      "path": "src/candidates/three/TransientSceneMotion.tsx",
+      "bytes": 10194,
+      "sha256": "abffbd1240ef6ae5d8096299ffba9c2cae7a669c808bdefabbf64ba9ddb0d50d"
+    },
+    {
+      "path": "src/candidates/three/universe-global-lod.ts",
+      "bytes": 1349,
+      "sha256": "15b0bc4f0908873a5f71c59032955bf36a39b7f6616585704c8f101940730e67"
+    },
+    {
+      "path": "src/candidates/three/universe-label-projection.ts",
+      "bytes": 13701,
+      "sha256": "31da13ed74804062bf6658e73b75acf5c25b11b5fbf52745bf80b956894c1414"
+    },
+    {
+      "path": "src/candidates/three/universe-overview-scene-model.ts",
+      "bytes": 19054,
+      "sha256": "29e1fb13529c9c3a46ef7d934960800e35b9921b3c4434e477c8fcd21b4d26ed"
+    },
+    {
+      "path": "src/candidates/three/universe-scene-interaction.ts",
+      "bytes": 2326,
+      "sha256": "3dc19616563dc8536bf72d9a8d594383f818a923f1174081a9084605bbfa4b7c"
+    },
+    {
+      "path": "src/candidates/three/UniverseOverviewScene.tsx",
+      "bytes": 47607,
+      "sha256": "c828fc4069fdaf21203282add9bd2d5f9e48039e5a14468173b6696cca2eec0f"
+    },
+    {
+      "path": "src/candidates/two/TwoCandidate.tsx",
+      "bytes": 3590,
+      "sha256": "aacfe6f6937600eb87183c9a153b9d2366e1b1c26fe228f1d2d6cdb79021cb97"
+    },
+    {
+      "path": "src/data/catalog/catalog-repository.ts",
+      "bytes": 6262,
+      "sha256": "c75b1c82ed638f6f5fc686cb37e69ec7a3b86115763cbf1686adb09e0f3b0bb7"
+    },
+    {
+      "path": "src/data/catalog/catalog-session.ts",
+      "bytes": 975,
+      "sha256": "bc22ea91b2e02875619721f7088c6039be9363870be1384eaca25f8c341d1d97"
+    },
+    {
+      "path": "src/data/catalog/catalog-universe-controller.ts",
+      "bytes": 12273,
+      "sha256": "2910d8d36b885ff7a19d9844f2f7c5f73db83692f1e1bf0336673dd93d2dadba"
+    },
+    {
+      "path": "src/data/catalog/static-sharded-catalog-repository.ts",
+      "bytes": 18143,
+      "sha256": "b4ffb8f8d061fdafef73524dc57163ba1d8a4e5daa7d105c5e1893134a31e972"
+    },
+    {
+      "path": "src/data/catalog/trusted-catalog-keys.json",
+      "bytes": 157,
+      "sha256": "362a5adbc1cea92d46b26f3b9d96c2a48d5fd48e3d42562bc9eaca9ca95ff651"
+    },
+    {
+      "path": "src/data/contracts/catalog-v3.ts",
+      "bytes": 5827,
+      "sha256": "4bb399bb950a1a404e7a30d887ec402478d2e81c69281781f8edc1da028b8e2f"
+    },
+    {
+      "path": "src/data/publication/catalog-exporter-v3.ts",
+      "bytes": 13686,
+      "sha256": "edcaef3a196f1f1cfb3cbdedcf9f6945e5d83aac6912f8890e21217ff27ccc71"
+    },
+    {
+      "path": "src/data/publication/catalog-full-projection-v3.ts",
+      "bytes": 25283,
+      "sha256": "e7c3777632395337aaf3d86351d479f190d579ca8b4b13b7e242dd8f0b551272"
+    },
+    {
+      "path": "src/data/publication/catalog-signature.ts",
+      "bytes": 1899,
+      "sha256": "d4bd571711c696ef187ab018eb8549c06ef48c8b46738c025592fbfc488cde91"
+    },
+    {
+      "path": "src/data/relations/style-relation-v2.ts",
+      "bytes": 4474,
+      "sha256": "8e264bba86197d8c85c5c74116ff31163bb7065e009ef7f944c4251274fb0219"
+    },
+    {
+      "path": "src/data/schema-registry.ts",
+      "bytes": 2434,
+      "sha256": "dd57bf89b31c4e667351c510b992ba52725b36a307329e651389cf901157957d"
+    },
+    {
+      "path": "src/errors.ts",
+      "bytes": 1314,
+      "sha256": "faf16c8fee9b81fdc517ace7d93200551e07a7097942f261fc455780fb55a2ab"
+    },
+    {
+      "path": "src/experiment/readiness/experiment-readiness.ts",
+      "bytes": 4246,
+      "sha256": "0a38e0ca71377ca44ee675c3c6f346933f4b9883b27117ac06529bd9f8730375"
+    },
+    {
+      "path": "src/experiment/research/browser-research-session.ts",
+      "bytes": 5418,
+      "sha256": "242932dc773e26e0ac3e9967d69e44fc1aacf399c3ca828616d0f9b32e69e2d8"
+    },
+    {
+      "path": "src/experiment/research/research-events.ts",
+      "bytes": 3293,
+      "sha256": "8958eba981cca04a9d704925a5b4cfa21d692c1be074ab3673fcb61fd85e620f"
+    },
+    {
+      "path": "src/experiment/viewmodel/candidate-model.ts",
+      "bytes": 9297,
+      "sha256": "ec2685419e613ea74c94964d5c3026dbcfde0d76fe8e077c39782e8129ec9146"
+    },
+    {
+      "path": "src/experiment/viewmodel/catalog-universe-model.ts",
+      "bytes": 6822,
+      "sha256": "b4b2038bfb2ffbd3531fc571463da458dbbf418b05c5748934375269fd9496d9"
+    },
+    {
+      "path": "src/experiment/viewmodel/style-relation-v2-adapter.ts",
+      "bytes": 5359,
+      "sha256": "00795a240cc96244a2e4cf546fb3f402f08edb1906109a802f82d1ed91949211"
+    },
+    {
+      "path": "src/experiment/viewmodel/universe-overview-model.ts",
+      "bytes": 14769,
+      "sha256": "7c5f391803528d7f95487dd9b17f3e1e56c95c9ae4bc97bd074913cddc61b65e"
+    },
+    {
+      "path": "src/features/evidence/evidence.ts",
+      "bytes": 1542,
+      "sha256": "1487c812515febdb458b6994d7267a98f9d4ebfa5bad202d5189f03ca1ef57f2"
+    },
+    {
+      "path": "src/features/network/use-online-status.ts",
+      "bytes": 594,
+      "sha256": "75aaa2ec299bf7f5931f3f26b60a1f3a00e1b9254da8f9b67a6dbb5986493911"
+    },
+    {
+      "path": "src/features/query/query.ts",
+      "bytes": 3864,
+      "sha256": "8f30161130f4c11188fc077309eb08a1408e8d5a73efa78082d23e88917e944b"
+    },
+    {
+      "path": "src/features/recent/recent-explorations.ts",
+      "bytes": 2674,
+      "sha256": "701c797860fc562867e9ecfac5fef1dafceaaddf46e55954f642c36ef56190b6"
+    },
+    {
+      "path": "src/features/share/semantic-share.ts",
+      "bytes": 4763,
+      "sha256": "a68168a92ce36bf286d262de2cf0749da577bb52feb4b6baa3662a5ce6c74c12"
+    },
+    {
+      "path": "src/generated/schema-types.ts",
+      "bytes": 16026,
+      "sha256": "d575e59e29f7c493665426864adbd1e588cf0fa76f15837b6c00cbe5bf30fb73"
+    },
+    {
+      "path": "src/graph/style-relation-projection.ts",
+      "bytes": 8093,
+      "sha256": "6103d92331fb7503834daf715b37d5fe75dd172117569a1ff9480c864630679c"
+    },
+    {
+      "path": "src/i18n/config.ts",
+      "bytes": 1638,
+      "sha256": "f7613152ba3131d048012c9464d27ec87e448a26f48ca542058854eb7c5d442e"
+    },
+    {
+      "path": "src/i18n/csv-import.ts",
+      "bytes": 2786,
+      "sha256": "d91bb6d3e449556ebbf3151731e8a71cc2302ef5669a29c3514f927b83bf0b8a"
+    },
+    {
+      "path": "src/i18n/LanguageMenu.tsx",
+      "bytes": 6052,
+      "sha256": "8c89cec934a2290c1bac3d691adb73f01b87a8394cae185a059b03d9cc429075"
+    },
+    {
+      "path": "src/i18n/locales/en.ts",
+      "bytes": 13339,
+      "sha256": "6fd0508efe39dfd405dafec1a7e7ccb801fd4f0050397d7d16d4f593ab87ec2d"
+    },
+    {
+      "path": "src/i18n/locales/zh-CN.ts",
+      "bytes": 12717,
+      "sha256": "f489ac156adf109eb470bd8499b06eb72a99002ee222c6cf8c2e4531b5af426d"
+    },
+    {
+      "path": "src/i18n/storage.ts",
+      "bytes": 2355,
+      "sha256": "cde1909ca270edde09e8a79e66d66ac245f4f682e23637941dda571c264f3d21"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 606,
+      "sha256": "8aeff3f4cfafd238d00c28d3715cf7068edef348bc4e7ed03d62acd14c550940"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 77149,
+      "sha256": "539b224fc123a523ccc223afd67d91e377b5756e692f72ef7633569ce55fff8c"
+    },
+    {
+      "path": "src/ui/states/coverage-state.ts",
+      "bytes": 3672,
+      "sha256": "6a64aeca64c26535bf639133672771343e32a9409425eedce08a4bfdeb067180"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 171,
+      "sha256": "10df060b901d24657eb0944094d13b2ab5eccc1c79141782784d633d75b55440"
+    },
+    {
+      "path": "tests/app/background-audio-controller.test.ts",
+      "bytes": 9721,
+      "sha256": "30527ab2551a5a59fa57942f12d22690348c0e6e5d5384b76747c9095bbc0731"
+    },
+    {
+      "path": "tests/app/background-audio-player.test.tsx",
+      "bytes": 6928,
+      "sha256": "b586e35e056f2020507b28fd209ffdd8c0f56361e30aaae9e5ff027ac5e162cc"
+    },
+    {
+      "path": "tests/data/cloudflare-publication.test.ts",
+      "bytes": 5668,
+      "sha256": "53cd9fdfea7f51c34be979e367214f7b52195c7275d3f0b4f789677038b8e113"
+    },
+    {
+      "path": "tests/data/current-catalog-v3.test.ts",
+      "bytes": 6245,
+      "sha256": "03dc88b394fcd912118cff00c87b0bdd1ec6c35a1924fd5a5a08c927d356df28"
+    },
+    {
+      "path": "tests/e2e/background-audio.spec.ts",
+      "bytes": 7684,
+      "sha256": "add4b609aae284e608a129cb62296f69004aaa7c89c05c4157a98096057c657f"
+    },
+    {
+      "path": "tests/e2e/catalog-v3-homepage.spec.ts",
+      "bytes": 4108,
+      "sha256": "dd8f29df2c5c02ba424933840b89f3a8264a01a9cf35eb9b8f2aa72c5694c075"
+    },
+    {
+      "path": "tests/e2e/recent-explorations.spec.ts",
+      "bytes": 2923,
+      "sha256": "1c741ef9dc2acb608ad47a17900d329751dcd5347783bbe0f742ea22ad01e880"
+    },
+    {
+      "path": "tests/e2e/universe-homepage-accessibility.spec.ts",
+      "bytes": 4586,
+      "sha256": "354fec97e52373708e0d1ee215e5b9813d9cde412040a2cb4492d6884bb17100"
+    },
+    {
+      "path": "tests/e2e/universe-homepage-responsive.spec.ts",
+      "bytes": 8529,
+      "sha256": "35a72d3a233ab2a40c7988466a701c6c59afe5b213b9acdaed6ffb748a80c2fc"
+    },
+    {
+      "path": "tests/e2e/universe-homepage.spec.ts",
+      "bytes": 34282,
+      "sha256": "ad74c06260bb83db96695f1d9a4a7600191d7dc0a0cb2ae96ae51e33bb64dd32"
+    },
+    {
+      "path": "tests/e2e/v3-audio-autoplay.spec.ts",
+      "bytes": 2522,
+      "sha256": "a1659c0c8ae3c7d110ef8612e6158b5833bdae2dcdfcd8c87d60c9394a5e0777"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 801,
+      "sha256": "247e4ab2cc06270af2591f68ec657c086f7e2c965ca6f3f6b2f4ebbb8c1b4c2e"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "2985be8b28d3ade858e8d8fb4bc22f565b1bf6020dff982dce141f7721b9999c"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 2505,
+      "sha256": "ec6d8911b85e5fc7369934133bebb451e04be314303c13542e2e1a41baa9e0ec"
+    }
+  ]
+}

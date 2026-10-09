@@ -1,0 +1,12 @@
+.git
+node_modules
+dist
+tests
+output
+.env
+.env.*
+.wrangler
+cloudflare.deploy.json
+*.pem
+*.key
+*.log

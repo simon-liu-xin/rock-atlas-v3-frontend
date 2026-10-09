@@ -1,0 +1,6 @@
+{
+  "project": "rock-atlas",
+  "production_branch": "main",
+  "preview_branch": "preview",
+  "file_limit": 20000
+}

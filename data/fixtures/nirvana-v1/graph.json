@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "snapshot_id": "fixture-nirvana-v1",
+  "entities": {
+    "styles": [
+      {
+        "internal_id": "mw:style:rock",
+        "entity_type": "style",
+        "canonical_name": "Rock",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:style:punk-rock",
+        "entity_type": "style",
+        "canonical_name": "Punk Rock",
+        "aliases": ["Punk"],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:style:post-punk",
+        "entity_type": "style",
+        "canonical_name": "Post-Punk",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:style:alternative-rock",
+        "entity_type": "style",
+        "canonical_name": "Alternative Rock",
+        "aliases": ["Alternative"],
+        "external_identity_assertions": [
+          {
+            "namespace": "wikidata",
+            "value": "Q11366",
+            "source": "https://www.wikidata.org/wiki/Q11366",
+            "confidence": 1,
+            "status": "active"
+          }
+        ],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:style:grunge",
+        "entity_type": "style",
+        "canonical_name": "Grunge",
+        "aliases": ["Seattle sound"],
+        "external_identity_assertions": [
+          {
+            "namespace": "wikidata",
+            "value": "Q11365",
+            "source": "https://www.wikidata.org/wiki/Q11365",
+            "confidence": 1,
+            "status": "active"
+          }
+        ],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:style:noise-rock",
+        "entity_type": "style",
+        "canonical_name": "Noise Rock",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:style:post-grunge",
+        "entity_type": "style",
+        "canonical_name": "Post-Grunge",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      }
+    ],
+    "artists": [
+      {
+        "internal_id": "mw:artist:nirvana",
+        "entity_type": "artist",
+        "canonical_name": "Nirvana",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:artist:pearl-jam",
+        "entity_type": "artist",
+        "canonical_name": "Pearl Jam",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:artist:soundgarden",
+        "entity_type": "artist",
+        "canonical_name": "Soundgarden",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      },
+      {
+        "internal_id": "mw:artist:alice-in-chains",
+        "entity_type": "artist",
+        "canonical_name": "Alice in Chains",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null
+      }
+    ],
+    "release_groups": [
+      {
+        "internal_id": "mw:release-group:bleach",
+        "entity_type": "release_group",
+        "canonical_name": "Bleach",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null,
+        "artist_ids": ["mw:artist:nirvana"],
+        "primary_type": "Album",
+        "secondary_types": ["Studio"],
+        "first_release_date": "1989-06-15"
+      },
+      {
+        "internal_id": "mw:release-group:nevermind",
+        "entity_type": "release_group",
+        "canonical_name": "Nevermind",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null,
+        "artist_ids": ["mw:artist:nirvana"],
+        "primary_type": "Album",
+        "secondary_types": ["Studio"],
+        "first_release_date": "1991-09-24"
+      },
+      {
+        "internal_id": "mw:release-group:in-utero",
+        "entity_type": "release_group",
+        "canonical_name": "In Utero",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null,
+        "artist_ids": ["mw:artist:nirvana"],
+        "primary_type": "Album",
+        "secondary_types": ["Studio"],
+        "first_release_date": "1993-09-21"
+      },
+      {
+        "internal_id": "mw:release-group:mtv-unplugged-new-york",
+        "entity_type": "release_group",
+        "canonical_name": "MTV Unplugged in New York",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null,
+        "artist_ids": ["mw:artist:nirvana"],
+        "primary_type": "Album",
+        "secondary_types": ["Live"],
+        "first_release_date": "1994-11-01"
+      },
+      {
+        "internal_id": "mw:release-group:muddy-banks-wishkah",
+        "entity_type": "release_group",
+        "canonical_name": "From the Muddy Banks of the Wishkah",
+        "aliases": [],
+        "external_identity_assertions": [],
+        "first_snapshot": "fixture-nirvana-v1",
+        "last_snapshot": "fixture-nirvana-v1",
+        "record_status": "active",
+        "redirect_to": null,
+        "artist_ids": ["mw:artist:nirvana"],
+        "primary_type": "Album",
+        "secondary_types": ["Live"],
+        "first_release_date": "1996-10-01"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "internal_id": "mw:relation:grunge-subgenre-alternative-rock",
+      "source_id": "mw:style:grunge",
+      "target_id": "mw:style:alternative-rock",
+      "relation_type": "subgenre_of",
+      "assertion_kind": "fact",
+      "evidence_ids": ["mw:evidence:wikidata-q11365-p279-q11366"],
+      "license_partition": "rock-core-cc0"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "mw:evidence:wikidata-q11365-p279-q11366",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q11365$P279->Q11366",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q11365.json",
+      "claim": "Wikidata records Grunge (Q11365) as a subclass of Alternative rock (Q11366).",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "fixture-nirvana-v1",
+      "license_partition": "rock-core-cc0"
+    }
+  ]
+}

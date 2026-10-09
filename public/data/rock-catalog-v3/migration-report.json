@@ -1,0 +1,26 @@
+{
+  "scope": "current-audited-corpus",
+  "full_catalog_ready": false,
+  "source_generation": "rock-catalog-20260810T071601Z-b0d12972b817",
+  "generation_id": "mw:catalog-generation:rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30",
+  "source_canonical_sha256": "6e547b22be7731d25d723729eb1c5938ad3b32b1f802392ac06c94f0e821b6b5",
+  "source_frontend_sha256": "1e89bcadf7112a7838b4e9b83143e243b2fa0471395265fc6a8c5329cfa130af",
+  "counts": {
+    "canonical": {
+      "styles": 828,
+      "artists": 420,
+      "release_groups": 528,
+      "relations": 997,
+      "evidence": 1844
+    },
+    "projections": {
+      "preserved_seed_artists": 100,
+      "artist_style_edges": 908,
+      "overview_styles": 828
+    }
+  },
+  "object_count": 206,
+  "bucket_count": 192,
+  "total_object_bytes": 2826846,
+  "largest_leaf_object_bytes": 23497
+}

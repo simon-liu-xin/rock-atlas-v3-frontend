@@ -1,0 +1,25 @@
+{
+  "channel": "rock-catalog-v3",
+  "compatibility": {
+    "canonical_json": "canonical-json-v1",
+    "identity_normalization": "identity-normalization-v1",
+    "layout": {
+      "max": "global-v1",
+      "min": "global-v1"
+    },
+    "schema": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "search_normalization": "search-normalization-v1",
+    "source_match_normalization": "source-match-normalization-v1"
+  },
+  "generation_id": "mw:catalog-generation:rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30",
+  "key_id": "rock-atlas-current-v3",
+  "pointer_version": "3.0",
+  "published_at": "2026-08-10T07:16:01.243Z",
+  "root_manifest_content_sha256": "403e6ae71be0e6d48062de9820542d315992585fe60cf65e904a8950240e310d",
+  "root_manifest_object_sha256": "403e6ae71be0e6d48062de9820542d315992585fe60cf65e904a8950240e310d",
+  "root_manifest_url": "/data/rock-catalog-v3/generations/rock-catalog-20260810t071601z-b0d12972b817-v3-c510a12b5f30/root-manifest.json",
+  "signature": "d63qz72ySANUIphBm0pEbaZD5fIm2hmQcCAb2q5I75vnVfqwo1dsrlufXgCE6YX4pWCd-mhC0nudXVU7MZBzAA"
+}

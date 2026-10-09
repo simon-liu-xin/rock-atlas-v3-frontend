@@ -1,0 +1,24 @@
+{
+  "fixture_id": "nirvana-v1",
+  "pack_format_version": 1,
+  "schema_version": "1.0",
+  "snapshot_id": "fixture-nirvana-v1",
+  "pipeline_version": "g0-fixture-1",
+  "payload_file": "graph.json",
+  "payload_sha256": "sha256:48a46ca8750ad2fa0d537035b084382104327a0fccd6934ab4c672a920afe5b3",
+  "counts": {
+    "styles": 7,
+    "artists": 4,
+    "release_groups": 5,
+    "relations": 1,
+    "evidence": 1
+  },
+  "required_partitions": [
+    {
+      "partition_id": "rock-core-cc0",
+      "license": "CC0-1.0",
+      "redistributable": true
+    }
+  ],
+  "entry_evidence_id": "mw:evidence:wikidata-q11365-p279-q11366"
+}
