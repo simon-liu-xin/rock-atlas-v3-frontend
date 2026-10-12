@@ -97,7 +97,7 @@ export function UniverseHomepage({
   onStateChange,
   forceWebGLFallback = false,
 }: UniverseHomepageProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { active: motionActive, mode: motionMode } = useMotionMode();
   const universeSample = sample;
   const model = useMemo(() => {
@@ -369,6 +369,7 @@ export function UniverseHomepage({
             ))}
           </nav>
           <div className="universe-utility-controls">
+            <a className="universe-guide-link" href={i18n.resolvedLanguage === 'zh-CN' ? '/zh/guide/' : '/guide/'}>{t('seo.guide')}</a>
             <MotionModeMenu />
             <LanguageMenu />
             <button

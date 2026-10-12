@@ -31,3 +31,15 @@
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+
+/experiment/*
+  X-Robots-Tag: noindex, follow
+
+/evidence/*
+  X-Robots-Tag: noindex, follow
+
+/data/*
+  X-Robots-Tag: noindex
+
+https://rock-atlas-1ru.pages.dev/*
+  X-Robots-Tag: noindex

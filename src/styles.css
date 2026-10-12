@@ -513,6 +513,17 @@ a {
   margin-left: auto;
 }
 
+.universe-guide-link {
+  color: var(--muted-strong);
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: var(--universe-type-control);
+  margin-inline-end: 8px;
+  text-decoration: none;
+}
+.universe-guide-link:hover { color: var(--fg); }
+
 .universe-hud-primary .motion-mode-menu {
   margin-left: 0;
 }
