@@ -59,6 +59,16 @@ export function ExperimentApp() {
     () => (studyId ? loadBrowserResearchSession(window.localStorage, studyId) : null),
     [studyId, researchRevision],
   );
+  useEffect(() => {
+    let robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    if (!robots) {
+      robots = document.createElement('meta');
+      robots.name = 'robots';
+      document.head.append(robots);
+    }
+    // Static reading pages have their own HTML; app query states are not separate index pages.
+    robots.content = location.pathname === '/' && !location.search ? 'index, follow' : 'noindex, follow';
+  }, [location.pathname, location.search]);
   const studyAssignment =
     researchLoad?.status === "ready"
       ? researchLoad.session.store.consent!.assignment

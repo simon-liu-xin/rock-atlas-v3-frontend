@@ -15,6 +15,20 @@
 
 ## 一键发布
 
+### Git integration 构建设置
+
+正式站点为 `https://rock-atlas.simonliu.cn`，Pages 项目为 `rock-atlas`，源仓库
+为 `simon-liu-xin/rock-atlas-v3-frontend`，生产分支为 `main`。项目根目录使用本仓根目录，
+构建命令必须为 `npm run build`，构建输出目录必须为 `dist`，Node 使用 22。
+只修改仓库文件不会自动纠正控制台中为空的构建设置，应另行核对项目设置后触发部署。
+
+不能将原始仓库根目录直接作为静态输出：它只包含应用入口，SEO 元数据、静态正文、
+robots 与 sitemap 均由构建步骤生成；`public/404.html` 也要复制到输出根目录，
+才能使未知路径返回 404。发布完成后运行 `npm run seo:audit`，并独立检查随机未知
+路径确实返回 404。线上 HTTP 200 的首页外壳不能当作 sitemap 或 robots 验收通过。
+
+### 手动上传
+
 Mac、Windows PowerShell 和 Linux 使用相同命令。在项目或 `rock-atlas-V3-clean`
 目录中执行，前置条件是 Node.js 22.18+（保持 Node 22）和 npm 10.9+：
 
@@ -72,6 +86,12 @@ npm run deploy:cloudflare:check -- --skip-build
 - 12 个 namespace 完整，概览覆盖所有风格并保留布局。
 - `dist/` 没有旧 V2 运行目录、SQL、原始 JSONL、私钥、环境文件或数据库目录。
 - 默认最多 20,000 个文件，单文件最多 25 MiB；超限立即停止上传。
+
+`npm run check` 另外验证 SEO 生成器在独立输出目录中的产物，覆盖公开页清单、
+canonical、来源可读正文、作者与主站回链。`npm run test:e2e` 覆盖动态查询及研究
+工作台的客户端 `noindex`。`/experiment/*`、`/evidence/*` 还通过 `_headers` 返回
+`X-Robots-Tag`；查询参数页的原始 HTML 使用首页 canonical，客户端再标记 `noindex`。
+这些页面不能加入 sitemap；不要通过 robots 禁抓取替代 `noindex`。
 
 付费项目确认启用更高文件数后可使用 `--file-limit 100000`；该参数只改变本地
 检查，不会替账号升级套餐。需要在项目设置核对相应限制及

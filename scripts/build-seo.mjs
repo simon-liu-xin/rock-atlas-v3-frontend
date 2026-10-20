@@ -2,11 +2,15 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { pageMetadata, renderPageHead, buildSiteFiles } from '@simonliu/site-kit';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const origin = 'https://rock-atlas.simonliu.cn';
+const site = JSON.parse(await readFile(resolve(root, 'site.json'), 'utf8'));
+const { origin } = site;
 const publicDir = resolve(root, 'public');
-const dist = resolve(root, 'dist');
+const outputFlag = process.argv.indexOf('--out');
+if (outputFlag >= 0 && !process.argv[outputFlag + 1]) throw new Error('--out requires a directory');
+const dist = resolve(root, outputFlag >= 0 ? process.argv[outputFlag + 1] : 'dist');
 const pointer = JSON.parse(await readFile(resolve(publicDir, 'data/rock-catalog-v3/current.json'), 'utf8'));
 const readAsset = async (url) => {
   const path = resolve(publicDir, `.${url}`);
@@ -32,10 +36,24 @@ const labels = (zh) => zh ? {
   title: 'Rock Music Genre Directory — Rock Atlas', description: 'Browse rock genres in the current Rock Atlas snapshot, with source links and associated artist counts. Continue into the interactive artist and release map.',
 };
 function head(title, description, path, zh, pair, kind = 'WebPage') {
-  const url = origin + path;
-  const schema = JSON.stringify({ '@context': 'https://schema.org', '@type': kind, name: title, description, url, inLanguage: zh ? 'zh-CN' : 'en', isPartOf: { '@type': 'WebSite', name: 'Rock Atlas', url: origin + '/' } }).replace(/</g, '\\u003c');
-  const hash = createHash('sha256').update(schema).digest('base64');
-  return { schema, hash, tags: `<meta name="description" content="${esc(description)}"><link rel="canonical" href="${url}"><meta property="og:type" content="website"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${url}"><meta property="og:site_name" content="Rock Atlas"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}">${pair ? `<link rel="alternate" hreflang="en" href="${origin + pair}"><link rel="alternate" hreflang="zh-CN" href="${origin}/zh${pair}"><link rel="alternate" hreflang="x-default" href="${origin + pair}">` : ''}<script type="application/ld+json">${schema}</script>` };
+  const metadata = pageMetadata({ origin, path, title, description, locale: zh ? 'zh-CN' : 'en',
+    alternates: pair ? [{ locale: 'en', path: pair }, { locale: 'zh-CN', path: `/zh${pair}` }, { locale: 'x-default', path: pair }] : [] });
+  const url = metadata.canonical;
+  const author = { '@type': 'Person', '@id': 'https://www.simonliu.cn/#person', name: 'Simon Liu', url: 'https://www.simonliu.cn/about/' };
+  const schema = { '@context': 'https://schema.org', '@type': kind, '@id': url + '#page', name: metadata.title, description: metadata.description, url, inLanguage: metadata.locale, author,
+    isPartOf: { '@type': 'WebSite', '@id': origin + '/#website', name: site.name, url: origin + '/', publisher: author },
+    ...(kind === 'WebApplication' ? { applicationCategory: 'EducationalApplication', operatingSystem: 'Web browser' } : {}),
+  };
+  const tags = renderPageHead({ origin, path, title, description, locale: metadata.locale,
+    alternates: metadata.alternates, siteName: site.name, author: author.name, structuredData: schema,
+  }).replace(/<title>[\s\S]*?<\/title>\n?/, '') + '<meta name="robots" content="index, follow">';
+  const serializedSchema = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/.exec(tags)?.[1];
+  if (!serializedSchema) throw new Error('Generated structured data missing');
+  const hash = createHash('sha256').update(serializedSchema).digest('base64');
+  return { metadata, hash, tags };
+}
+function identityLinks(zh) {
+  return `<footer>Rock Atlas · Simon Liu · <a href="https://www.simonliu.cn/">${zh ? 'Simon 主站' : 'Simon’s home'}</a> · <a rel="author" href="https://blog.simonliu.cn/${zh ? '' : 'en/'}about/">${zh ? '关于作者' : 'About the author'}</a></footer>`;
 }
 const css = '<link rel="stylesheet" href="/seo.css">';
 function nav(zh, section) {
@@ -57,24 +75,26 @@ function directory(zh) {
   return `<h1>${zh ? '摇滚风格目录' : 'Rock music genre directory'}</h1><p>${zh ? '本目录从当前发布快照生成。点击风格进入交互星图，继续查看艺人、作品和证据。关联艺人可能出现在多个风格中，因此分项数量不能直接相加。' : 'This directory is generated from the currently published snapshot. Choose a style to explore artists, releases and evidence in the interactive map. Artists can appear under multiple styles, so per-style counts are not additive.'}</p><p class="meta">${counts.styles} ${zh ? '个风格 · 快照发布于' : 'styles · Snapshot published'} ${esc(pointer.published_at.slice(0,10))}</p><p><a href="${zh ? '/zh' : ''}/guide/">${zh ? '先了解来源与关系边界' : 'Read about sources and relationship limitations'}</a></p><ul class="seo-directory">${entries}</ul>`;
 }
 const routes = ['/'];
+const pages = [{ path: '/', title: 'Rock Atlas — Rock Music Genres, Artists & Connections', description: englishDescription, locale: 'en' }];
 for (const zh of [false,true]) for (const section of ['guide','catalog']) {
   const path = `${zh ? '/zh' : ''}/${section}/`;
   const title = section === 'guide' ? (zh ? 'Rock Atlas 摇滚星图使用与数据说明' : 'Rock Atlas Guide — Music Map and Data Sources') : labels(zh).title;
   const description = section === 'guide' ? (zh ? '了解如何探索摇滚风格、艺人与作品，区分影响、子风格和共现关系，查看数据来源、覆盖范围与纠错渠道。' : 'Learn to explore rock styles, artists and releases, read relationship evidence, and understand the sources, coverage and limitations of the Rock Atlas music map.') : labels(zh).description;
   const meta = head(title,description,path,zh,`/${section}/`,section==='catalog'?'CollectionPage':'WebPage');
-  const html = `<!doctype html><html lang="${zh ? 'zh-CN':'en'}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(title)}</title>${meta.tags}${css}<link rel="icon" href="/favicon.svg"></head><body><main class="seo-document">${nav(zh,section)}${section==='guide'?guide(zh):directory(zh)}<footer>Rock Atlas · Simon Liu · <a href="https://blog.simonliu.cn/">${zh ? '研究与见闻':'Research and field notes'}</a></footer></main></body></html>`;
+  const html = `<!doctype html><html lang="${zh ? 'zh-CN':'en'}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(meta.metadata.title)}</title>${meta.tags}${css}<link rel="icon" href="/favicon.svg"></head><body><main class="seo-document">${nav(zh,section)}${section==='guide'?guide(zh):directory(zh)}${identityLinks(zh)}</main></body></html>`;
   await mkdir(resolve(dist,`.${path}`),{recursive:true});
   await writeFile(resolve(dist,`.${path}`,'index.html'),html);
   routes.push(path);
+  pages.push({ path, title, description, locale: zh ? 'zh-CN' : 'en', alternates: meta.metadata.alternates });
 }
 const homeMeta = head('Rock Atlas — Rock Music Genres, Artists & Connections',englishDescription,'/',false,null,'WebApplication');
-const landing = `<main class="seo-document"><h1>Rock Atlas: rock genres, artists and connections</h1><p>${esc(englishDescription)}</p><p>The current snapshot covers ${counts.styles} styles, ${counts.artists} artists and ${counts.release_groups} release groups. These are snapshot counts, not a claim of complete global coverage.</p><nav><a href="/catalog/">Browse the rock genre directory</a><a href="/guide/">Guide and data sources</a><a href="/zh/guide/" lang="zh-CN">中文使用说明</a></nav><p>The interactive map loads here when JavaScript is available. The text directory and guide remain available without JavaScript.</p></main>`;
+const landing = `<main class="seo-document"><h1>Rock Atlas: rock genres, artists and connections</h1><p>${esc(englishDescription)}</p><p>The current snapshot covers ${counts.styles} styles, ${counts.artists} artists and ${counts.release_groups} release groups. These are snapshot counts, not a claim of complete global coverage.</p><nav><a href="/catalog/">Browse the rock genre directory</a><a href="/guide/">Guide and data sources</a><a href="/zh/guide/" lang="zh-CN">中文使用说明</a></nav><p>The interactive map loads here when JavaScript is available. The text directory and guide remain available without JavaScript.</p>${identityLinks(false)}</main>`;
 let homepage=await readFile(resolve(dist,'index.html'),'utf8');
 if(!homepage.includes('<!-- seo:head -->')||!homepage.includes('<!-- seo:landing -->')) throw new Error('SEO build markers missing');
 homepage=homepage.replace('<!-- seo:head -->',homeMeta.tags+css).replace('<!-- seo:landing -->',landing);
 // Allow only the generated structured-data block under the existing strict CSP.
 homepage=homepage.replace("script-src 'self';",`script-src 'self' 'sha256-${homeMeta.hash}';`);
 await writeFile(resolve(dist,'index.html'),homepage);
-await writeFile(resolve(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map(p=>`<url><loc>${origin+p}</loc></url>`).join('')}</urlset>`);
-await writeFile(resolve(dist,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
+if (JSON.stringify(routes) !== JSON.stringify(site.pages)) throw new Error('Generated pages do not match site.json');
+await buildSiteFiles({ ...site, pages }, dist);
 console.log(`SEO: ${routes.length} canonical pages; ${styles.length} source-linked styles; static landing verified.`);

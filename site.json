@@ -1,0 +1,10 @@
+{
+  "id": "rock-atlas",
+  "origin": "https://rock-atlas.simonliu.cn",
+  "name": "Rock Atlas",
+  "description": "Explore rock music styles, artists, releases and their source-linked connections in an interactive map.",
+  "locales": ["en", "zh-CN"],
+  "pages": ["/", "/guide/", "/catalog/", "/zh/guide/", "/zh/catalog/"],
+  "sitemapPath": "/sitemap.xml",
+  "sitemapMode": "generated"
+}

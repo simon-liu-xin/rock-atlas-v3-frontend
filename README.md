@@ -21,6 +21,21 @@ npm run deploy:cloudflare -- --project rock-atlas
 
 详见 [Cloudflare 指引](docs/deployment/cloudflare-pages.md)。只发布 `dist/`。
 
+## SEO 与公开阅读页
+
+`npm run build` 在 Vite 构建后生成可直接读取的首页介绍、英中使用说明和风格目录，
+以及 `robots.txt`、`sitemap.xml`、`seo-manifest.json`。公开页面清单见 `site.json`。
+生成器核对当前数据快照的 manifest 与概览哈希，不写入数据目录。动态搜索、
+实体焦点和研究工作台不进入 sitemap；应用参数状态使用 `noindex`，canonical
+统一回到首页。使用说明与目录有独立英中正文，不存在中文首页的占位 URL。
+
+共享工具 `@simonliu/site-kit` 以 `vendor/` 中的版本化 tarball 安装；持续集成
+只需本仓与 `npm ci`，无需访问作者博客仓库。修改中央工具后须重新打包并更新
+本仓依赖、锁文件。正式上线后执行 `npm run seo:audit`，检查实际响应。
+
+Cloudflare Git integration 必须设置构建命令 `npm run build`、输出目录 `dist`。
+静态阅读页由生产构建生成，`npm run dev` 仅用于交互应用开发。
+
 ## 背景音乐
 
 实际 MP3 不进入 Git。部署者将文件放在 `public/audio/comfortably-numb.mp3`，复制
