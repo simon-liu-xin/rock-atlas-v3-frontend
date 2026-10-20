@@ -16,10 +16,10 @@ npm run check
 
 ```bash
 npm run deploy:cloudflare:check
-npm run deploy:cloudflare -- --project rock-atlas
+git push origin main
 ```
 
-详见 [Cloudflare 指引](docs/deployment/cloudflare-pages.md)。只发布 `dist/`。
+正式发布只推送 `simon-liu-xin/rock-atlas-v3-frontend`，由现有 Cloudflare Pages 项目 `rock-atlas` 自动构建同步；不在本机手动上传或创建另一份部署。详见 [Cloudflare 指引](docs/deployment/cloudflare-pages.md)。Cloudflare 只发布 `dist/`。
 
 ## SEO 与公开阅读页
 

@@ -13,7 +13,9 @@
 当前限定目录的 `gate_a.status` 为 `not-run`，全量发布的 Gate A 要求仍由
 全量流水线执行。发布脚本不会下载数据，也不会绕过全量发布门禁。
 
-## 一键发布
+## GitHub 自动发布
+
+本账号的正式发布只提交并推送 `simon-liu-xin/rock-atlas-v3-frontend` 的 `main`，由现有 Pages 项目 `rock-atlas` 的 Git integration 自动构建。先完成本地检查，再推送；构建成功后核对正式域名。禁止本机直接上传，也不为该域名另外创建项目。下方手动上传章节仅保留为历史工具说明，不适用于本站日常发布。
 
 ### Git integration 构建设置
 
